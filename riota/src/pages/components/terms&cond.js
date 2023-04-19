@@ -1,4 +1,5 @@
 import '../../styles/styles.module.css'
+
 import Image from 'next/image';
 function tc(){
     return(
