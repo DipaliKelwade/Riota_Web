@@ -1,18 +1,22 @@
 import '../../styles/styles.module.css'
-
+import Navbar from "./navbar";
+import bg from '../../../public/svg/Frame43.png'
 import Image from 'next/image';
 function tc(){
     return(
+        
         <div className='absolute '>
+            
+           
            <Image
            src="/images/longbg.png"
            width={1600}
            height={500}/>
            <div className='absolute inset-x-0 top-[2%] h-18 left-[25%]'>
-            <h1 className='absolute text-[60px] font-extrabold font-Inconsolata text-white'>TERMS AND CONDITIONS</h1>
+            <h1 className='absolute text-[60px] font-extrabold font-abc text-white'>TERMS AND CONDITIONS</h1>
            </div>
            <div className='absolute inset-x-0 top-[3.5%] left-[8%]'>
-            <h2 className='absolute font-extrabold font-Inconsolata text-white text-[40px]'>Welcome To RIOTA</h2>
+            <h2 className='absolute font-extrabold font-abc text-white text-[40px]'>Welcome To RIOTA</h2>
            </div>
            <div className='absolute inset-x-0 top-[4.5%] ml-[8%] mr-[8%] width-[10%]'>
             <p className='absolute font-medium font-Inconsolata text-white text-[18px]' >Please read these website terms of use carefully before using this website (hereinafter 'website'). These website terms of use (hereinafter 'terms of use') govern your access to and use of the website. The website is available for your use only on the condition that you agree to the terms of use set forth below. If you do not agree to all of the terms of use, do not access or use the website. By accessing or using the website, you and the entity you are authorised to represent (hereinafter 'you' or 'your') signify your agreement to be bound by the terms of use.</p>

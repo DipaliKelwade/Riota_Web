@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navbar from "./navbar";
 function Home(){
     return(
-        <div className=" w-full box-border" style={{backgroundImage:`url(${bg.src})`}}>
+        <div className=" w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}>
            <Navbar/>
            <div className='firstSec my-8 flex flex-row' >
                 <div className='leftside w-[70%] flex flex-row mx-5'>
@@ -117,7 +117,7 @@ function Home(){
                 </div>
            </div>
 
-           <div className='foursec  ml-36 flex flex-row '>
+           <div className='foursec  flex flex-row '>
                 <div className='leftside w-[30%] flex flex-row ml-20'>
                     <div className='font-bold text-white text-[60px]  py-7'>Digital Transformation</div>
                 </div>
@@ -144,7 +144,7 @@ function Home(){
 
            <div className='fivesec my-24  flex flex-row'>
                 <div className='leftside  mt-8 ml-[150px]'>
-                    <div className='leftText font-abc w-[700px] flex flex-col justify-center mx-20 '>
+                    <div className='leftText font-abc w-[700px] flex flex-col justify-center  '>
                         <div className='text-white text-lg font-normal'>We use Agile methodology for faster development to accelerate the creation, modernization, delivery and maintenance of high-quality, secure applications allowing you to innovate faster while reducing risk, time to market, total cost of ownership and agility to enable you to meet business needs , now and in the future.</div>
                         <div className='point text-yellow-300 font-abc text-lg ml-3 mt-7 leading-10'>
                                 <ul className='list-disc'>
@@ -166,7 +166,7 @@ function Home(){
                     <div className='font-bold text-white text-[60px]  py-7'>Engineering Services</div>
                 </div>
                 <div className='rightside  mt-8 ml-[150px] '>
-                    <div className='leftText font-abc w-[700px] flex flex-col justify-center mx-24 '>
+                    <div className='leftText font-abc w-[700px] flex flex-col justify-center  '>
                         <div className='text-white text-lg font-normal'>With advanced tools and technologies and engineering expertise we build end-to-end software development services covering seamless and responsive interfaces and design experiences that will support round-the-clock to organizations across the globe. Our strong team of subject matter experts provides best-in-class solutions to established and emerging enterprises across different industry verticals.</div>
                         <div className='point text-yellow-300 font-abc text-lg ml-3 mt-7 leading-10'>
                             <ul className='list-disc'>
@@ -244,8 +244,8 @@ function Home(){
                 />
      
            </div>
-           <div className='11sec  ml-36 flex flex-row '>
-                <div className='leftText font-abc w-[800px] flex flex-col justify-center mx-10  '>
+           <div className='11sec  ml-20 flex flex-row '>
+                <div className='leftText font-abc w-[800px] flex flex-col justify-center   '>
                     <div className='font-bold font text-3xl text-[#FFEE40]'>TESTIMONIAL</div>
                     <div className='font-bold text-white text-[60px]  py-2'>What Client Say </div>
                     <div className='text-white text-lg font-medium'>We always Appreciate any feedback from our client. But what 
