@@ -1,6 +1,4 @@
 import bg from '../../../public/svg/Frame43.png'
-// import white from '../../../public/svg/Frame43.png'
-import Link from 'next/link';
 import Image from "next/image";
 import Navbar from "./navbar";
 function Home(){
