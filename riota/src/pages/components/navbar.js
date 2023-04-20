@@ -25,7 +25,7 @@ const Navbar=()=>{
                      </Link>
                  </li>
                  <li>
-                     <Link href={"/Home"}>
+                     <Link href={"/products.js"}>
                          Product & Solutions
                      </Link>
                  </li>
