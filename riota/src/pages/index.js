@@ -6,7 +6,7 @@ import Product from "./components/products"
 function index(){
   return(
     <div>
-    <Product />
+    <Terms />
 
     </div>
   )
