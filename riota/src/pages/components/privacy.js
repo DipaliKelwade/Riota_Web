@@ -1,5 +1,6 @@
 import '../../styles/styles.module.css'
 import Navbar from "./navbar";
+import Footer from "./footer"
 import bg from '../../../public/svg/Frame43.png'
 import Image from 'next/image';
 
@@ -246,7 +247,8 @@ function privacy(){
        <div className='relative inset-x-0  ml-[8%] mr-[8%] width-[10%] '>
        <p className='relative font-medium font-abc text-white text-[18px]'>If you have any questions about this Privacy Policy, please contact us by email: info@riota.in.</p>
        </div>
-      
+       
+      <Footer/>
     </div>
 
     )
