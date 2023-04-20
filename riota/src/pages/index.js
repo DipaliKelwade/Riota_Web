@@ -3,11 +3,12 @@ import Home from "./components/home";
 import Terms from "./components/terms&cond";
 import Product from "./components/products"
 import Svm from "./components/svm"
+import Privacy from "./components/privacy"
 
 function index(){
   return(
     <div>
-    <Svm />
+    <Privacy />
 
     </div>
   )
