@@ -1,3 +1,4 @@
+import Contact from "./components/contact";
 import Home from "./components/home";
 import Terms from "./components/terms&cond";
 import Product from "./components/products"
@@ -5,7 +6,7 @@ import Product from "./components/products"
 function index(){
   return(
     <div>
-    <Product />
+    <Terms />
 
     </div>
   )

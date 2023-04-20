@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import Contact from "./contact";
+import Home from "./home";
 
 const Navbar=()=>{
     return(
@@ -11,14 +13,14 @@ const Navbar=()=>{
              />
         </div> 
         <div className="nav  my-14 pr-24 ">
-             <ul className="flex flex-row space-x-10 text-base font-semibold font-abc ">
+             <ul className="flex flex-row space-x-10 text-base font-semibold font-abc cursor-pointer ">
                  <li>
                      <Link href={"/Home"}>
                          Home
                      </Link>
                  </li>
                  <li>
-                     <Link href={"/Home"}>
+                     <Link href={"/"}>
                          Digital Transformation
                      </Link>
                  </li>
@@ -33,8 +35,8 @@ const Navbar=()=>{
                      </Link>
                  </li>
                  <li >
-                     <Link href={"/Home"}>
-                         <button className="rounded-full w-28 h-12 -mt-5 bg-white text-black">Contact Us </button>
+                     <Link href='/Contact'>
+                         <button className="rounded-full w-28 h-12 -mt-5 bg-white text-black cursor-pointer">Contact Us </button>
                      </Link>
                  </li>
              </ul>
