@@ -5,13 +5,9 @@ import Image from 'next/image';
 function tc(){
     return(
         
-        <div className='absolute '>
+        <div className=" w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}>
             
-           
-           <Image
-           src="/images/longbg.png"
-           width={1600}
-           height={500}/>
+          
            <div className='absolute inset-x-0 top-[2%] h-18 left-[25%]'>
             <h1 className='absolute text-[60px] font-extrabold font-abc text-white'>TERMS AND CONDITIONS</h1>
            </div>
