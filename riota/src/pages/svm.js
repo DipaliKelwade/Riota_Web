@@ -1,8 +1,9 @@
-import '../../styles/styles.module.css'
-import bg from '../../../public/svg/Frame43.png'
+import '../styles/styles.module.css'
+import bg from '../../public/svg/Frame43.png'
 import Image from 'next/image';
 import Navbar from "./navbar";
 import Link from 'next/link'
+import Footer from './footer1';
 
 function svm(){
     return(
@@ -25,7 +26,8 @@ function svm(){
                 <p className='font-medium font-abc text-white text-[18px] ml-[9%] mr-[9%]'>We work with you to customize the aesthetics and UX to match your brand or business model. Whatever you have in mind, talk to us, let’s create something amazing!</p>
                 
             </div>
-
+            <Footer/>
+            
         </div>
 
     )

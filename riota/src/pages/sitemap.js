@@ -1,4 +1,4 @@
-import bg from '../../../public/svg/Frame43.png'
+import bg from '../../public/svg/Frame43.png'
 import Image from "next/image";
 import Navbar from "./navbar";
 import Footer from './footer1';

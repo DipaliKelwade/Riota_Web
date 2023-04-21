@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import bg from '../../public/svg/Frame43.png'
-import Navbar from "./components/navbar";
-import Whitebg from "./components/Whitebg";
-import Footer from "./components/footer1";
+import Navbar from "./navbar";
+import Whitebg from "./Whitebg";
+import Footer from "./footer1";
 
 
 function Frame23() {

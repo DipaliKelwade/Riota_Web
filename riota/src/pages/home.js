@@ -1,7 +1,8 @@
-import bg from '../../../public/svg/Frame43.png'
+import bg from '../../public/svg/Frame43.png'
 import Image from "next/image";
 import Navbar from "./navbar";
 import Footer from './footer1';
+import Whitebg from './Whitebg';
 function Home(){
     return(
         <div className=" w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}>
@@ -214,19 +215,7 @@ function Home(){
                 </div>
            </div>
 
-           <div className='ninesec my-24 w-[100vh} h-[450px] bg-white'>
-                <div className='left'> </div>
-                <div className='right float-right font-abc mx-40 my-16'>
-                    <div className='text-[50px] font-bold text-[#12172D]'>Subscribe to Our Newsletter</div>
-                    <div className='text-lg font-medium text-slate-500 w-[650px] my-3'>Lorem ipsum dolor sit amet consectetur. Arcu tristique quis gravida 
-                    habitant suspendisse sodales.</div>
-                    <div className='flex flex-row'>
-                    <input className='w-[766px] h-[73px] border-2  border-solid border-black rounded-r-full flex flex-row px-2' placeholder='Enter Your Email '/>
-                    
-                    <div className='h-[73px] w-[186px] rounded-full bg-[#12172D]  text-white font-bold text-xl text-center p-5 -ml-44'>Subscribe</div>
-                    </div>
-                </div>
-           </div>
+           <Whitebg/>
 
            <div className='10sec flex flex-col justify-center items-center my-32'>
                 <div className=' font-abc w-[800px] text-center mb-20'>

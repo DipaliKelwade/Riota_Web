@@ -1,8 +1,9 @@
-import '../../styles/styles.module.css'
-import bg from '../../../public/svg/Frame43.png'
+import '../styles/styles.module.css'
+import bg from '../../public/svg/Frame43.png'
 import Image from 'next/image';
 import Navbar from "./navbar";
 import Link from 'next/link'
+import Footer from './footer1';
 
 function product (){
     return(
@@ -172,6 +173,7 @@ function product (){
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

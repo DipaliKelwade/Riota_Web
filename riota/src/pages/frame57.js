@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Navbar from "./navbar";
 import SubtoNew from "./SubtoNew";
-import bg from "../../../public/svg/F27bg.svg";
-import "../../../public/svg/g12.svg";
-import "../../../public/svg/RPA.svg";
-import "../../../public/svg/robolution.svg";
+import bg from "../../public/svg/F27bg.svg";
+import "../../public/svg/g12.svg";
+import "../../public/svg/RPA.svg";
+import "../../public/svg/robolution.svg";
+import Footer from "./footer1";
 
 export default function Frame57() {
   return (
@@ -18,7 +19,7 @@ export default function Frame57() {
 
       <div
         className="w-full -mt-24"
-        style={{ backgroundImage: `url(${bg.src})`, height: "6200px" }}
+        style={{ backgroundImage: `url(${bg.src})`, height: "6800px" }}
       >
         <div className="ml-28 mt-24">
           <h2 className="text-yellow-300 text-3xl font-semibold">
@@ -396,7 +397,7 @@ export default function Frame57() {
       </div>
 
        <div
-        className="bg-pink-400 bg-no-repeat ml-44 mr-44 mt-20 rounded-3xl text-white"
+        className="bg-pink-400 bg-no-repeat ml-44 mr-44 mt-20 rounded-3xl text-white mb-20"
         style={{ height: "350px", width: "1400px", marginTop: "-500px" }}>
         <div>
           <div className="mr-12 ml-12 pt-16 justify-center">
@@ -410,7 +411,7 @@ export default function Frame57() {
           
         </div>
       </div> 
-    
+    <Footer/>
     </>
   );
 }
