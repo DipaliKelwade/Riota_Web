@@ -28,7 +28,7 @@ const Navbar=()=>{
                  <li>
                      <Link href={""}>
                         <div onClick={()=> setIsOpen((prev)=>!prev)} className="flex flex-row ">Digital Transformation
-                            <Image className="-mt-2" src="/svg/.png" width={20} height={30} alt=""/>
+                            <Image className="-mt-2" src="/svg/down-24.png" width={20} height={30} style={{width:"auto",height:"auto"}} alt=""/>
                         </div>
                         {isOpen &&<div  className="bg-gray-500  rounded-lg  mt-2 p-8 absolute ">
                                 <ul className="flex flex-col gap-4 text-white ">

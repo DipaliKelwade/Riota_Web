@@ -164,7 +164,7 @@ function About(){
                 </div>
                 <div className="rounded-xl w-[295px] h-[181px] mx-auto bg-gradient-to-br p-[3px] from-[#ffffff] via-[#8a8a8a] to-[#000000]">
                     <div className="flex flex-col justify-center items-center gap-7 h-full bg-[#12172D] text-white rounded-lg">
-                        <Image src="/svg/spport.svg" width={55} height={53} alt='glob'/>
+                        <Image src="/svg/support.svg" width={55} height={53} alt='glob'/>
                         <div className='font-bold text-xl'>SUPPORT</div>
                     </div>
                 </div>
@@ -244,7 +244,7 @@ function About(){
                                 src="/svg/management.svg"
                                 width={50}
                                 height={60}
-                                alt=''
+                                alt='management'
                             />
                             <div className='text-[30px] font-bold mt-5 '>ISO/IEC 27001:2013</div>
                             <div className='text-lg font-bold '>Information Security Management</div>
@@ -266,6 +266,7 @@ function About(){
                             alt='clients'
                             width={786}
                             height={275}
+                            style={{width:"auto",height:"auto"}}
                         />
                     </div>
                 </div>
@@ -277,6 +278,7 @@ function About(){
                             alt='clients'
                             width={786}
                             height={275}
+                            style={{width:"auto",height:"auto"}}
                         />
                     </div>
                     <div className=' font-abc w-[400px]  mb-20'>

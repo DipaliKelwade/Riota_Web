@@ -7,7 +7,7 @@ function Footer(){
             <div className="flex  justify-center"><div className="w-[1640px] h-[1px] bg-white"></div></div>
             <div className="content flex justify-evenly p-7">
                 <div className="right">
-                    <Image src="/svg/image 2.svg" width={175} height={56}/>
+                    <Image src="/svg/image 2.svg" width={175} height={56} alt="image"/>
                     <p className="font-medium text-base w-[280px] h-[58px] mt-10 ">RIOTA delivers innovative customer 
                     centric technology solutions and 
                     services that enable clients to 
@@ -113,6 +113,7 @@ function Footer(){
                                     src="/svg/phone.svg"
                                     width={40}
                                     height={40}
+                                    alt="phone"
                                 />
                                 <div className='number'>1800-257-9500</div>
                             </li>
@@ -121,6 +122,7 @@ function Footer(){
                                     src="/svg/mail.svg"
                                     width={40}
                                     height={40}
+                                    alt="mail"
                                 />
                                 <div className='number'>info@riota.in</div>
                             </li>
@@ -129,6 +131,7 @@ function Footer(){
                                     src="/svg/location.svg"
                                     width={40}
                                     height={40}
+                                    alt="location"
                                 />
                                 <div className='number'>The Hive - VR Mall, JN Road, Chennai, TN, 
                                 India - 600 040</div>
