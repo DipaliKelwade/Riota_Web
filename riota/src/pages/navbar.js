@@ -14,6 +14,7 @@ const Navbar=()=>{
              <Image  src="/svg/image1.png"  
                      height="33"
                      width="103"   
+                     alt=""
              />
         </div> 
         <div className="nav  my-14 pr-24 ">
@@ -27,7 +28,7 @@ const Navbar=()=>{
                  <li>
                      <Link href={""}>
                         <div onClick={()=> setIsOpen((prev)=>!prev)} className="flex flex-row ">Digital Transformation
-                            <Image className="-mt-2" src="/svg/.png" width={20} height={30}/>
+                            <Image className="-mt-2" src="/svg/.png" width={20} height={30} alt=""/>
                         </div>
                         {isOpen &&<div  className="bg-gray-500  rounded-lg  mt-2 p-8 absolute ">
                                 <ul className="flex flex-col gap-4 text-white ">
