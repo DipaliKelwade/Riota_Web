@@ -46,9 +46,9 @@ function Frame26() {
               </p>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
-              <img
+              <Image
                 className="object-cover object-center rounded z-10"
-                alt="hero"
+                alt="earth"
                 src="/icons/earth.png"
               />
             </div>
@@ -87,9 +87,9 @@ function Frame26() {
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
-            <img
+            <Image
               className="object-cover object-center rounded z-10"
-              alt="hero"
+              alt="26_img"
               src="/icons/c2_26_img1.png"
             />
           </div>
@@ -99,9 +99,9 @@ function Frame26() {
       <section className="text-white">
         <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
-            <img
+            <Image
               className="object-cover object-center rounded z-10"
-              alt="hero"
+              alt="26_img"
               src="/icons/c3_26_img1.png"
             />
           </div>
