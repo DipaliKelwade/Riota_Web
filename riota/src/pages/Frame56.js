@@ -1,14 +1,16 @@
-
 import Image from "next/image";
-import bg from '../../public/svg/Frame43.png';
+import bg from "../../public/svg/Frame43.png";
 import Whitebg from "./Whitebg";
 import Footer from "./footer1";
 import Navbar from "./navbar";
 
 function Frame56() {
   return (
-    <div className="m-0 w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}>
-      <Navbar/>
+    <div
+      className="m-0 w-full overflow-x-hidden box-border"
+      style={{ backgroundImage: `url(${bg.src})` }}
+    >
+      <Navbar />
       <div>
         <section className="text-white">
           <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
@@ -27,7 +29,7 @@ function Frame56() {
                 architecture, selecting materials and processes that meet the
                 environmental requirements, engineering the various components
                 that are necessary to make the product work, and finalizing the
-                look and feel of the product.{" "}
+                look and feel of the product.
               </p>
               <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px] mb-5 ">
                 Development, on the other hand, involves identifying new
@@ -52,13 +54,13 @@ function Frame56() {
           </div>
         </section>
 
-        <section class="text-white">
-          <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center text-18xl">
-              <p class="  lg:w-1/2 w-full leading-relaxed text-white ">
-                RIOTA’s embedded services cover the entire spectrum of product
-                design and development.The product design services offered by
-                RIOTA includes,
+        <section className="text-white">
+          <div className="container px-5 py-24 mx-auto">
+            <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center text-18xl">
+              <p className="  lg:w-1/2 w-full leading-relaxed text-white ">
+                {"RIOTA’s"} embedded services cover the entire spectrum of
+                product design and development.The product design services
+                offered by RIOTA includes,
               </p>
             </div>
             <div className="flex flex-wrap gap-4 -m-4 justify-center align-middle items-center text-center">
@@ -66,6 +68,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/board.png"
+                    alt="board"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -81,6 +84,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/pcb.png"
+                    alt="board"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -98,6 +102,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/product.png"
+                    alt="board"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -113,6 +118,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/verification.png"
+                    alt="board"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -130,6 +136,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/compliance.png"
+                    alt="board"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -145,6 +152,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/embedded.png"
+                    alt="board"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -160,6 +168,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/wireless.png"
+                    alt="board"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -256,116 +265,116 @@ function Frame56() {
               <p>
                 Firmware development provides the control and monitoring
                 software needed <br />
-                for hardware products and systems. In today’s environment,
+                for hardware products and systems. In {"today’s"} environment,
                 firmware <br /> exists in each device; be it a smartphone, an
                 edge device or a defense <br /> and aerospace sub-system.It is
                 extremely important for firmware <br /> developers to have good
                 knowledge about hardware design and development <br /> along
-                with good understanding of the internal workings of an embedded{" "}
+                with good understanding of the internal workings of an embedded
                 <br /> processor or SoC.
               </p>
             </div>
           </div>
         </section>
 
-        <section class="text-white">
-          <div class="container px-5 py-20 mx-auto">
+        <section className="text-white">
+          <div className="container px-5 py-20 mx-auto">
             <div className="container md:px-5 px-1">
               <h5 className="text-6xl text-center mb-5 ">
                 <b> FIRMWARE DEVELOPMENT SERVICES </b>
               </h5>
             </div>
-            <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-              <p class="lg:w-1/2 w-full leading-relaxed text-white text-18xl">
+            <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+              <p className="lg:w-1/2 w-full leading-relaxed text-white text-18xl">
                 Our varied range of embedded firmware development services
                 includes.
               </p>
             </div>
-            <div class="flex flex-wrap -m-4">
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2  border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+            <div className="flex flex-wrap -m-4">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2  border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Hardware Abstraction Layer.
                   </p>
                 </div>
               </div>
 
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Device/protocol simulation.
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Embedded application development.
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Bespoke firmware development and deployment
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Communication protocol stack development/ integration
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Optimizations (performance power utilization etc.)
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Boot loader porting and hardening, Minimum Kernel/OAL
                     Support.
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Tracking and monitoring solutions for the industries.
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     FPGA/CPLD based digital logic designs and IP cores.
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     File System Integration, Memory optimization and Power
                     Management.
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Remote access and monitoring solutions for discrete and
                     process industries.
                   </p>
                 </div>
               </div>
-              <div class="xl:w-1/4 md:w-1/2 p-4">
-                <div class="border-2 border-white p-6 rounded-3xl">
-                  <p class="text-2xl text-center leading-relaxed ">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="border-2 border-white p-6 rounded-3xl">
+                  <p className="text-2xl text-center leading-relaxed ">
                     Board Bring up & verification, Diagnostics & Interrupt
                     routines.
                   </p>
@@ -375,8 +384,8 @@ function Frame56() {
           </div>
         </section>
       </div>
-      <Whitebg/>
-      <Footer/>
+      <Whitebg />
+      <Footer />
     </div>
   );
 }

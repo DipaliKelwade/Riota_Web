@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import bg from '../../public/svg/Frame43.png';
 import Whitebg from "./Whitebg";
@@ -50,6 +49,8 @@ function Frame26() {
                 className="object-cover object-center rounded z-10"
                 alt="earth"
                 src="/icons/earth.png"
+                width={428}
+              height={427}
               />
             </div>
           </div>
@@ -77,7 +78,7 @@ function Frame26() {
             <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px] mb-7">
               Making the move to a partial or full cloud-based business has a
               number of economic variables. We will find the best fit for your
-              budget and ongoing operations.{" "}
+              budget and ongoing operations.
             </p>
 
             <h3 className="text-[#FFFFFF] text-3xl">03 - DIGITAL TRANSITION</h3>
@@ -91,6 +92,8 @@ function Frame26() {
               className="object-cover object-center rounded z-10"
               alt="26_img"
               src="/icons/c2_26_img1.png"
+              width={373}
+              height={373}
             />
           </div>
         </div>
@@ -103,6 +106,8 @@ function Frame26() {
               className="object-cover object-center rounded z-10"
               alt="26_img"
               src="/icons/c3_26_img1.png"
+              width={373}
+              height={373}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">

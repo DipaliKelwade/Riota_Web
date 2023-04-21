@@ -140,7 +140,7 @@ export default function Frame57() {
               </h1>
               <br />
               <div className="text-xl ml-10 mr-10">
-                RIOTA’s cloud application development services provide clients
+                {"RIOTA’s"} cloud application development services provide clients
                 access to powerful cloud...
               </div>
               <button className="w-80 h-12 border-2 mt-12 rounded-3xl border-white ml-12">
@@ -171,7 +171,7 @@ export default function Frame57() {
                 comparative study
               </li>
               <li className="mt-6">
-                ● Prototype the product – High Level to get necessary business
+                ● Prototype the product {"–"} High Level to get necessary business
                 buy-in.
               </li>
               <li className="mt-6">● Price the product.</li>

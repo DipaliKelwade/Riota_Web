@@ -111,7 +111,7 @@ export default function Frame54() {
               We believe in providing a high level of transparency to our
               clients, abiding by our core principles, and always communicating
               honestly and frequently. From small businesses to Large companies,
-              we've worked with them all and we anxiously welcome a new project
+              {"we've"} worked with them all and we anxiously welcome a new project
               and challenge from you. Our goal is to provide high-end custom
               software development services to our clients that are unrivaled in
               the industry. Our expert team will build your custom software
@@ -210,7 +210,7 @@ export default function Frame54() {
               </h1>
               <br />
               <div className="text-xl ml-10 mr-10">
-                RIOTA’s cloud application development services provide clients
+                {"RIOTA’s"} cloud application development services provide clients
                 access to powerful cloud...
               </div>
               <button className="w-80 h-12 border-2 mt-12 rounded-3xl border-white ml-12">
