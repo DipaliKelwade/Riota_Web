@@ -38,9 +38,9 @@ function Frame56() {
               </p>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
-              <img
+              <Image
                 className="object-cover object-center rounded z-10"
-                alt="hero"
+                alt="earth"
                 src="/icons/earth.png"
               />
             </div>

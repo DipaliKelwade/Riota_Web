@@ -30,9 +30,9 @@ function Frame23() {
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
-            <img
+            <Image
               className="object-cover object-center rounded z-10"
-              alt="hero"
+              alt="earth"
               src="/icons/earth.png"
             />
           </div>
@@ -83,9 +83,9 @@ function Frame23() {
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
-            <img
+            <Image
               className="object-cover object-center rounded z-10"
-              alt="hero"
+              alt="data"
               src="/icons/data.png"
             />
           </div>
@@ -96,9 +96,9 @@ function Frame23() {
       <section className="text-white">
         <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
-            <img
+            <Image
               className="object-cover object-center rounded z-10"
-              alt="hero"
+              alt="database"
               src="/icons/database.png"
             />
           </div>
