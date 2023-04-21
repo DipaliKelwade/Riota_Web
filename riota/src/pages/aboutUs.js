@@ -266,7 +266,7 @@ function About(){
                             alt='clients'
                             width={786}
                             height={275}
-                            style={{width:"auto",height:"auto"}}
+                            
                         />
                     </div>
                 </div>
@@ -278,7 +278,7 @@ function About(){
                             alt='clients'
                             width={786}
                             height={275}
-                            style={{width:"auto",height:"auto"}}
+                            
                         />
                     </div>
                     <div className=' font-abc w-[400px]  mb-20'>

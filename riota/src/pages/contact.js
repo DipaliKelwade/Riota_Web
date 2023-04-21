@@ -15,7 +15,7 @@ function Contact(){
                             width={466}
                             height={402}
                             alt='contact'
-                            style={{width:"auto",height:"auto"}}
+                            
                         />
                     </div>
                     <div className=' '>
@@ -26,7 +26,7 @@ function Contact(){
                                     width={50}
                                     height={50}
                                     alt='phone'
-                                    style={{width:"auto",height:"auto"}}
+                                    
                                 />
                                 <div className='number'>1800-257-9500</div>
                             </li>
@@ -36,7 +36,7 @@ function Contact(){
                                     width={50}
                                     height={50}
                                     alt='mail'
-                                    style={{width:"auto",height:"auto"}}
+                                    
                                 />
                                 <div className='number'>info@riota.in</div>
                             </li>
@@ -46,7 +46,7 @@ function Contact(){
                                     width={50}
                                     height={50}
                                     alt='location'
-                                    style={{width:"auto",height:"auto"}}
+                                    
                                 />
                                 <div className='number'>The Hive - VR Mall, JN Road, Chennai, TN, 
                                 India - 600 040</div>

@@ -17,7 +17,7 @@ function Home(){
                                     alt="vertical"
                                     width="5"
                                     height="1"
-                                    style={{width:"auto",height:"auto"}}
+                                    
                                 />
                             </li>
                             <li className='py-2'>
@@ -58,7 +58,7 @@ function Home(){
                                     alt="vertica;"
                                     width="5"
                                     height="1"
-                                    style={{width:"auto",height:"auto"}}
+                                    
                                 />
                             </li>
                         </ul>
@@ -78,7 +78,7 @@ function Home(){
                         alt="earth"
                         width={700}
                         height={500}
-                        style={{width:"auto",height:"auto"}}
+                       
                     />
                 </div>
            </div>
@@ -89,7 +89,7 @@ function Home(){
                     alt="arrow"
                     width={15}
                     height={30}
-                    style={{width:"auto",height:"auto"}}
+                    
                 />
            </div>
 
@@ -247,14 +247,14 @@ function Home(){
                             alt='arrow'
                             width={33}
                             height={17}
-                            style={{width:"auto",height:"auto"}}
+                            
                         />
                         <Image 
                             src="/svg/rightArrow.svg"
                             alt='arrow'
                             width={33}
                             height={17}
-                            style={{width:"auto",height:"auto"}}
+                            
                         />
                      </div>
                 </div>
