@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./navbar"
-import bg from '../../../public/svg/F27bg.svg'
+import Footer from "./footer1"
+import bg from '../../public/svg/F27bg.svg'
 import SubtoNew from "./SubtoNew";
 
 export default function Frame29() {
@@ -15,7 +16,7 @@ export default function Frame29() {
 
       <div
         className="w-full -mt-24"
-        style={{ backgroundImage: `url(${bg.src})`, height: "4000px" }}
+        style={{ backgroundImage: `url(${bg.src})`, height: "4200px" }}
       >        <div className="ml-28 mt-24">
           <h2 className="text-yellow-300 text-3xl font-semibold">
             DIGITAL TRANSFORMATION
@@ -164,11 +165,12 @@ export default function Frame29() {
         </div>
       </div>
 
-      <div style={{backgroundImage:`url(${bg.src})`,height:"500px"}}>
-        <div style={{marginTop:"-700px"}}>
+      <div style={{backgroundImage:`url(${bg.src})`,height:"600px"}}>
+        <div style={{marginTop:"-1000px"}}>
             <SubtoNew/>
         </div>
         </div>
+        <Footer/>
 
     </>
   );

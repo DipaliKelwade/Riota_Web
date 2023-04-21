@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Navbar from "./navbar";
 import JoinNews from "./JoinNews"
-import bg from "../../../public/svg/F27bg.svg";
+import bg from "../../public/svg/F27bg.svg";
+import Footer from "./footer1";
 
 export default function Frame27() {
   return (
@@ -153,7 +154,9 @@ export default function Frame27() {
             
         </div>
         </div>
+        <Footer/>
       </div>
+
     </>
   );
 }

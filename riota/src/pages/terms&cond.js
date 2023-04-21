@@ -1,7 +1,8 @@
-import '../../styles/styles.module.css'
+import '../styles/styles.module.css'
 import Navbar from "./navbar";
-import bg from '../../../public/svg/Frame43.png'
+import bg from '../../public/svg/Frame43.png'
 import Image from 'next/image';
+import Footer from './footer1';
 function tc(){
     return(
         
@@ -74,6 +75,7 @@ function tc(){
            <div className='relative inset-x-0  ml-[8%] mr-[8%] width-[10%]'>
             <p className='relative font-medium font-abc text-white text-[18px]'>You may not assign these Terms of Use or any of Your interests, rights or obligations under these Terms of Use. If any provision of these Terms of Use shall be found to be invalid by any court having competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of these Terms of Use, which shall remain in full force and effect. No waiver of any of these Terms of Use shall be deemed a further or continuing waiver of such term or condition or any other term or condition. You may preserve these Terms of Use in written form by printing them for Your records, and You waive any other requirement for these Terms of Use to be proved by means of a written document.</p>
            </div>
+           <Footer/>
         </div>
     )
 } 

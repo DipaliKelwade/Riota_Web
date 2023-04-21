@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Navbar from "./navbar";
 import SubtoNew from "./SubtoNew";
-import bg from "../../../public/svg/F27bg.svg";
-import "../../../public/svg/g12.svg";
+import bg from "../../public/svg/F27bg.svg";
+import "../../public/svg/g12.svg";
 
 
 export default function Frame28() {
@@ -299,6 +299,7 @@ export default function Frame28() {
         <div style={{ marginTop: "-100px" }}>
           <SubtoNew />
         </div>
+        <Navbar/>
       </div>
     </>
   );

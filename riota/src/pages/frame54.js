@@ -1,28 +1,25 @@
 import Image from "next/image";
 import Navbar from "./navbar";
 import SubtoNew from "./SubtoNew";
-import bg from "../../../public/svg/F27bg.svg";
-import "../../../public/svg/g12.svg";
-import "../../../public/svg/img1.svg";
-import "../../../public/svg/img2.svg";
-import "../../../public/svg/img3.svg";
-import "../../../public/svg/img4.svg";
-import "../../../public/svg/img5.svg";
+import bg from "../../public/svg/F27bg.svg";
+import "../../public/svg/g12.svg";
+import "../../public/svg/img1.svg";
+import "../../public/svg/img2.svg";
+import "../../public/svg/img3.svg";
+import "../../public/svg/img4.svg";
+import "../../public/svg/img5.svg";
+import Footer from "./footer1";
 
 export default function Frame54() {
   return (
     <>
-      <div
-        className=" w-full box-border"
-        style={{ backgroundImage: `url(${bg.src})` }}
-      >
-        <Navbar />
-      </div>
+     
 
       <div
-        className="w-full -mt-24"
-        style={{ backgroundImage: `url(${bg.src})`, height: "4100px" }}
+        className="w-full  overflow-hidden"
+        style={{ backgroundImage: `url(${bg.src})`, height: "4500px" }}
       >
+      <Navbar />
         <div className="ml-28 mt-24">
           <h2 className="text-yellow-300 text-3xl font-semibold">
             IT SERVICES
@@ -286,11 +283,14 @@ export default function Frame54() {
         </div>
         <br/>
         <br/>
-      </div>
-
-      <div style={{marginTop:"-500px"}}>
+        <div >
         <SubtoNew />
       </div>
+      <Footer/>
+      </div>
+
+      
+      
 
     </>
   );

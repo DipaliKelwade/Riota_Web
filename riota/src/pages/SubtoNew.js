@@ -1,5 +1,6 @@
-import subbg from '../../../public/svg/subbg.svg';
+import subbg from '../../public/svg/subbg.svg';
 import Image from "next/image";
+import Footer from './footer1';
 
 export default function SubtoNew() {
   return (
@@ -29,6 +30,7 @@ export default function SubtoNew() {
        />
 
       </div>
+      
     </div>
   )
 }

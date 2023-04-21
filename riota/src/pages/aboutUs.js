@@ -1,4 +1,4 @@
-import bg from '../../../public/svg/Frame43.png'
+import bg from '../../public/svg/Frame43.png'
 import Image from "next/image";
 import Navbar from "./navbar";
 import Footer from './footer1';
@@ -224,6 +224,7 @@ function About(){
                                 src="/svg/quality.svg"
                                 width={80}
                                 height={80}
+                                alt=''
                             />
                             <div className='text-[30px] font-bold mt-5'>ISO 9001:2015</div>
                             <div className='text-lg font-bold '>Quality Management System</div>
@@ -233,6 +234,7 @@ function About(){
                                 src="/svg/membership.svg"
                                 width={45}
                                 height={45}
+                                alt=''
                             />
                             <div className='text-[30px] font-bold mt-5'>NASSCOM</div>
                             <div className='text-lg font-bold '>Certificate of Membership</div>
@@ -242,6 +244,7 @@ function About(){
                                 src="/svg/management.svg"
                                 width={50}
                                 height={60}
+                                alt=''
                             />
                             <div className='text-[30px] font-bold mt-5 '>ISO/IEC 27001:2013</div>
                             <div className='text-lg font-bold '>Information Security Management</div>

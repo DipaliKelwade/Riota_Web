@@ -1,7 +1,8 @@
-import bg from '../../../public/svg/Frame43.png'
+import bg from '../../public/svg/Frame43.png'
 import Image from "next/image";
 import Navbar from "./navbar";
 import Footer from './footer1';
+import Whitebg from './Whitebg';
 function Home(){
     return(
         <div className=" w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}>
@@ -66,7 +67,7 @@ function Home(){
                         <div className='text-white text-lg font-medium'>We are leaders, thinkers and makers at your service. Dedicating our knowledge 
                         to create user-centric designs backed by our experience. Our team is our 
                         major strength in providing qualitative products.</div>
-                        <div className='border-2  rounded-full border-solid border-white  font-bold text-base text-white h-12 w-32 text-center p-2 my-7'>Let's Start</div>
+                        <div className="border-2  rounded-full border-solid border-white  font-bold text-base text-white h-12 w-32 text-center p-2 my-7">{"Let's Start"}</div>
                     </div>
                 </div>
                 <div className='rightside w-[30%] mt-8'> 
@@ -88,7 +89,7 @@ function Home(){
                 />
            </div>
 
-           <div className='secondsec  ml-36 flex flex-row '>
+           <div className="secondsec  ml-36 flex flex-row">
                 <div className='leftside w-[30%] flex flex-row ml-12'>
                     <Image 
                         src="/svg/man2.svg"
@@ -214,19 +215,7 @@ function Home(){
                 </div>
            </div>
 
-           <div className='ninesec my-24 w-[100vh} h-[450px] bg-white'>
-                <div className='left'> </div>
-                <div className='right float-right font-abc mx-40 my-16'>
-                    <div className='text-[50px] font-bold text-[#12172D]'>Subscribe to Our Newsletter</div>
-                    <div className='text-lg font-medium text-slate-500 w-[650px] my-3'>Lorem ipsum dolor sit amet consectetur. Arcu tristique quis gravida 
-                    habitant suspendisse sodales.</div>
-                    <div className='flex flex-row'>
-                    <input className='w-[766px] h-[73px] border-2  border-solid border-black rounded-r-full flex flex-row px-2' placeholder='Enter Your Email '/>
-                    
-                    <div className='h-[73px] w-[186px] rounded-full bg-[#12172D]  text-white font-bold text-xl text-center p-5 -ml-44'>Subscribe</div>
-                    </div>
-                </div>
-           </div>
+           <Whitebg/>
 
            <div className='10sec flex flex-col justify-center items-center my-32'>
                 <div className=' font-abc w-[800px] text-center mb-20'>
@@ -242,7 +231,7 @@ function Home(){
                 />
      
            </div>
-           <div className='11sec  ml-20 flex flex-row '>
+           <div className='11sec  flex flex-row justify-evenly '>
                 <div className='leftText font-abc w-[800px] flex flex-col justify-center   '>
                     <div className='font-bold font text-3xl text-[#FFEE40]'>TESTIMONIAL</div>
                     <div className='font-bold text-white text-[60px]  py-2'>What Client Say </div>
@@ -290,6 +279,7 @@ function Home(){
                                 src="/svg/quality.svg"
                                 width={80}
                                 height={80}
+                                alt=''
                             />
                             <div className='text-[30px] font-bold mt-5'>ISO 9001:2015</div>
                             <div className='text-lg font-bold '>Quality Management System</div>
@@ -299,6 +289,7 @@ function Home(){
                                 src="/svg/membership.svg"
                                 width={45}
                                 height={45}
+                                alt=''
                             />
                             <div className='text-[30px] font-bold mt-5'>NASSCOM</div>
                             <div className='text-lg font-bold '>Certificate of Membership</div>
@@ -308,6 +299,7 @@ function Home(){
                                 src="/svg/management.svg"
                                 width={50}
                                 height={60}
+                                alt=''
                             />
                             <div className='text-[30px] font-bold mt-5 '>ISO/IEC 27001:2013</div>
                             <div className='text-lg font-bold '>Information Security Management</div>
