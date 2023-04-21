@@ -12,7 +12,7 @@ import Footer from "./components/footer"
 function index(){
   return(
     <div>
-    <Contact/>
+    <Home/>
 
     </div>
   )
