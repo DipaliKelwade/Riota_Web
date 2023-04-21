@@ -118,7 +118,7 @@ export default function Frame28() {
               business-critical solutions.
             </p>
             <ul className="mt-12 text-xl">
-              <p classNmae="mt-20">Solution concept:</p>
+              <p className="mt-20">Solution concept:</p>
               <li>● Feature management and prioritization.</li>
               <li className="mt-2">
                 ● How to integrate a solution into the existing IT landscape to
@@ -154,7 +154,7 @@ export default function Frame28() {
               that will add the competitive edge to your business.
             </p>
             <ul className="mt-12 text-xl">
-              <p classNmae="mt-20">DT areas we consult on</p>
+              <p className="mt-20">DT areas we consult on</p>
               <li className="mt-2">● Digital customer experience</li>
               <li className="mt-2">● Connected products.● Digital HR.</li>
             </ul>
