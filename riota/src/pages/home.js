@@ -65,7 +65,7 @@ function Home(){
                     </div>
                     <div className='leftText font-abc w-[800px] flex flex-col justify-center mx-20  '>
                         <div className='font-bold font text-3xl text-yellow-300'>LOREM IMPSUM</div>
-                        <div className='font-bold text-white text-[60px]  py-7'>World’s Leading <span className='text-yellow-300'>IOT</span> Products & Solution</div>
+                        <div className='font-bold text-white text-[60px]  py-7'>{"World’s"} Leading <span className='text-yellow-300'>IOT</span> Products & Solution</div>
                         <div className='text-white text-lg font-medium'>We are leaders, thinkers and makers at your service. Dedicating our knowledge 
                         to create user-centric designs backed by our experience. Our team is our 
                         major strength in providing qualitative products.</div>

@@ -1,13 +1,16 @@
 import Image from "next/image";
-import bg from '../../public/svg/Frame43.png'
+import bg from "../../public/svg/Frame43.png";
 import Navbar from "./navbar";
 import Whitebg from "./Whitebg";
 import Footer from "./footer1";
 
 const Frame24 = () => {
   return (
-    <div className="m-0 w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}>
-      <Navbar/>
+    <div
+      className="m-0 w-full overflow-x-hidden box-border"
+      style={{ backgroundImage: `url(${bg.src})` }}
+    >
+      <Navbar />
       <section className="text-white">
         <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
@@ -39,10 +42,12 @@ const Frame24 = () => {
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
-            <img
+            <Image
               className="object-cover object-center rounded z-10"
-              alt="hero"
+              alt="earth"
               src="/icons/earth.png"
+              width={428}
+              height={427}
             />
           </div>
         </div>
@@ -52,7 +57,10 @@ const Frame24 = () => {
         <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
             <div className="container ">
-              <h5 className="text-6xl mb-7"> <b>Our IoT services </b></h5>
+              <h5 className="text-6xl mb-7">
+                {" "}
+                <b>Our IoT services </b>
+              </h5>
             </div>
             <h3 className="text-[#FFFFFF] text-3xl mb-7">
               01 - TECHNOLOGY & BUSINESS CONSULTING
@@ -81,150 +89,157 @@ const Frame24 = () => {
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
-            <img
+            <Image
               className="object-cover object-center rounded z-10"
-              alt="hero"
+              alt="24_img"
               src="/icons/c2_24_img1.png"
+              width={373}
+              height={373}
             />
           </div>
         </div>
       </section>
 
-      
-        <section class="text-white">
-          <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-              <h1 class="text-3xl sm:text-6xl font-extrabold title-font mb-2 text-white">
-                <b> Our Business Usecases</b>
-              </h1>
+      <section className="text-white">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 className="text-3xl sm:text-6xl font-extrabold title-font mb-2 text-white">
+              <b> Our Business Usecases</b>
+            </h1>
+          </div>
+          <div className="flex flex-wrap -m-4">
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
+                <div className="p-3">
+                  <Image
+                    src="/icons/healthcare.png"
+                    alt="healthcare"
+                    width={100}
+                    height={100}
+                    className="w-10 h-10 mx-auto"
+                  />
+                </div>
+                <div className="flex justify-center p-3 flex-col text-center">
+                  <span className="uppercase py-4">HEALTHCARE</span>
+                  <p>
+                    Connected wearable technology helps patients keep track of
+                    their vital statistics such as blood pressure, calorie count
+                    and pulse rate.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="flex flex-wrap -m-4">
-              <div className="xl:w-1/3 md:w-1/2 p-4">
-                <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
-                  <div className="p-3">
-                    <Image
-                      src="/icons/healthcare.png"
-                      width={100}
-                      height={100}
-                      className="w-10 h-10 mx-auto"
-                    />
-                  </div>
-                  <div className="flex justify-center p-3 flex-col text-center">
-                    <span className="uppercase py-4">HEALTHCARE</span>
-                    <p>
-                      Connected wearable technology helps patients keep track of
-                      their vital statistics such as blood pressure, calorie
-                      count and pulse rate.
-                    </p>
-                  </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
+                <div className="p-3">
+                  <Image
+                    src="/icons/logistics.png"
+                    alt="logistics"
+                    width={100}
+                    height={100}
+                    className="w-10 h-10 mx-auto"
+                  />
+                </div>
+                <div className="flex justify-center p-3 flex-col text-center">
+                  <span className="uppercase py-4">LOGISTICS</span>
+                  <p>
+                    Our Indoor Positioning System employs wireless tracking
+                    technology to locate assets and personnel on location using
+                    real-time tracking.
+                  </p>
                 </div>
               </div>
-              <div className="xl:w-1/3 md:w-1/2 p-4">
-                <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
-                  <div className="p-3">
-                    <Image
-                      src="/icons/logistics.png"
-                      width={100}
-                      height={100}
-                      className="w-10 h-10 mx-auto"
-                    />
-                  </div>
-                  <div className="flex justify-center p-3 flex-col text-center">
-                    <span className="uppercase py-4">LOGISTICS</span>
-                    <p>
-                      Our Indoor Positioning System employs wireless tracking
-                      technology to locate assets and personnel on location
-                      using real-time tracking.
-                    </p>
-                  </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
+                <div className="p-3">
+                  <Image
+                    src="/icons/transport.png"
+                    alt="transport"
+                    width={100}
+                    height={100}
+                    className="w-10 h-10 mx-auto"
+                  />
+                </div>
+                <div className="flex justify-center p-3 flex-col text-center">
+                  <span className="uppercase py-4">TRANSPORT</span>
+                  <p>
+                    Efficient way to travel, saving energy and time by accessing
+                    information on bad weather, traffic congestion and much more
+                    through mobile apps.
+                  </p>
                 </div>
               </div>
-              <div className="xl:w-1/3 md:w-1/2 p-4">
-                <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
-                  <div className="p-3">
-                    <Image
-                      src="/icons/transport.png"
-                      width={100}
-                      height={100}
-                      className="w-10 h-10 mx-auto"
-                    />
-                  </div>
-                  <div className="flex justify-center p-3 flex-col text-center">
-                    <span className="uppercase py-4">TRANSPORT</span>
-                    <p>
-                      Efficient way to travel, saving energy and time by
-                      accessing information on bad weather, traffic congestion
-                      and much more through mobile apps.
-                    </p>
-                  </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
+                <div className="p-3">
+                  <Image
+                    src="/icons/retail.png"
+                    alt="retail"
+                    width={100}
+                    height={100}
+                    className="w-10 h-10 mx-auto"
+                  />
+                </div>
+                <div className="flex justify-center p-3 flex-col text-center">
+                  <span className="uppercase py-4">RETAIL</span>
+                  <p>
+                    Connected wearable technology helps patients keep track of
+                    their vital statistics such as blood pressure, calorie count
+                    and pulse rate.
+                  </p>
                 </div>
               </div>
-              <div className="xl:w-1/3 md:w-1/2 p-4">
-                <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
-                  <div className="p-3">
-                    <Image
-                      src="/icons/retail.png"
-                      width={100}
-                      height={100}
-                      className="w-10 h-10 mx-auto"
-                    />
-                  </div>
-                  <div className="flex justify-center p-3 flex-col text-center">
-                    <span className="uppercase py-4">RETAIL</span>
-                    <p>
-                      Connected wearable technology helps patients keep track of
-                      their vital statistics such as blood pressure, calorie
-                      count and pulse rate.
-                    </p>
-                  </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
+                <div className="p-3">
+                  <Image
+                    src="/icons/manufacturing.png"
+                    alt="manufacturing"
+                    width={100}
+                    height={100}
+                    className="w-10 h-10 mx-auto"
+                  />
+                </div>
+                <div className="flex justify-center p-3 flex-col text-center">
+                  <span className="uppercase py-4">MANUFACTURING</span>
+                  <p>
+                    Our Indoor Positioning System employs wireless tracking
+                    technology to locate assets and personnel on location using
+                    real-time tracking.
+                  </p>
                 </div>
               </div>
-              <div className="xl:w-1/3 md:w-1/2 p-4">
-                <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
-                  <div className="p-3">
-                    <Image
-                      src="/icons/manufacturing.png"
-                      width={100}
-                      height={100}
-                      className="w-10 h-10 mx-auto"
-                    />
-                  </div>
-                  <div className="flex justify-center p-3 flex-col text-center">
-                    <span className="uppercase py-4">MANUFACTURING</span>
-                    <p>
-                      Our Indoor Positioning System employs wireless tracking
-                      technology to locate assets and personnel on location
-                      using real-time tracking.
-                    </p>
-                  </div>
+            </div>
+            <div className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
+                <div className="p-3">
+                  <Image
+                    src="/icons/smart_home.png"
+                    alt="smart_home"
+                    width={100}
+                    height={100}
+                    className="w-10 h-10 mx-auto"
+                  />
                 </div>
-              </div>
-              <div className="xl:w-1/3 md:w-1/2 p-4">
-                <div className="p-4 flex justify-center flex-col border-2 rounded-xl">
-                  <div className="p-3">
-                    <Image
-                      src="/icons/smart_home.png"
-                      width={100}
-                      height={100}
-                      className="w-10 h-10 mx-auto"
-                    />
-                  </div>
-                  <div className="flex justify-center p-3 flex-col text-center">
-                    <span className="uppercase py-4">SMART HOMES</span>
-                    <p>
-                      Efficient way to travel, saving energy and time by
-                      accessing information on bad weather, traffic congestion
-                      and much more through mobile apps.
-                    </p>
-                  </div>
+                <div className="flex justify-center p-3 flex-col text-center">
+                  <span className="uppercase py-4">SMART HOMES</span>
+                  <p>
+                    Efficient way to travel, saving energy and time by accessing
+                    information on bad weather, traffic congestion and much more
+                    through mobile apps.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      
-      <Whitebg/>
-      <Footer/>
+        </div>
+      </section>
+
+      <Whitebg />
+      <Footer />
     </div>
   );
 };

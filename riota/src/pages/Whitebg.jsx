@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 function Whitebg() {
   return (
@@ -15,7 +14,12 @@ function Whitebg() {
       >
         <div className="ninesec flex md:flex-row flex-col my-24 w-[100vh} h-[450px]">
           <div className="left flex justify-center align-middle items-center relative flex-1">
-            <Image src="/icons/whitebg_forward.png" width={500} height={400} className="w-[407px] h-[303px]" />
+            <Image
+              src="/icons/whitebg_forward.png"
+              width={500}
+              height={400}
+              className="w-[407px] h-[303px]"
+            />
           </div>
           <div className="right flex-1 float-right font-abc mx-40 my-16">
             <div className="text-[50px] font-bold text-[#12172D]">

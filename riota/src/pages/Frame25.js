@@ -1,14 +1,16 @@
-
 import Image from "next/image";
-import bg from '../../public/svg/Frame43.png';
+import bg from "../../public/svg/Frame43.png";
 import Whitebg from "./Whitebg";
 import Footer from "./footer1";
 import Navbar from "./navbar";
 
 function Frame25() {
   return (
-    <div className="m-0 w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}>
-      <Navbar/>
+    <div
+      className="m-0 w-full overflow-x-hidden box-border"
+      style={{ backgroundImage: `url(${bg.src})` }}
+    >
+      <Navbar />
       <div>
         <section className="text-white">
           <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
@@ -46,6 +48,8 @@ function Frame25() {
                 className="object-cover object-center rounded z-10"
                 alt="earth"
                 src="/icons/earth.png"
+                width={428}
+                height={427}
               />
             </div>
           </div>
@@ -56,7 +60,10 @@ function Frame25() {
         <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
             <div className="container  px-1">
-              <h5 className="text-6xl mb-7"> <b> Our Mobility Services </b></h5>
+              <h5 className="text-6xl mb-7">
+                {" "}
+                <b> Our Mobility Services </b>
+              </h5>
             </div>
             <h3 className="text-[#FFFFFF] text-3xl mb-7">
               01 - CONSULTING AND STRATEGY
@@ -80,12 +87,13 @@ function Frame25() {
               className="object-cover object-center rounded z-10"
               alt="25_img"
               src="/icons/c2_25_img1.png"
+              width={373}
+              height={373}
             />
           </div>
         </div>
       </section>
 
-      
       <section className="text-white">
         <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
@@ -93,11 +101,13 @@ function Frame25() {
               className="object-cover object-center rounded z-10"
               alt="25_img"
               src="/icons/c3_25_img1.png"
+              width={373}
+              height={373}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
             <h3 className="text-[#FFFFFF] text-3xl mb-5">
-            03 - QUALITY ASSURANCE AND SECURITTY
+              03 - QUALITY ASSURANCE AND SECURITTY
             </h3>
             <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px] mb-7">
               This requires a well-planned IoT testing strategy that is
@@ -117,11 +127,11 @@ function Frame25() {
               setup comprising simulators, ready-made tools, and extensible
               frameworks.
             </p>
-        </div>
+          </div>
         </div>
       </section>
-      <Whitebg/>
-      <Footer/>
+      <Whitebg />
+      <Footer />
     </div>
   );
 }

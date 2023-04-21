@@ -1,20 +1,23 @@
-import React from "react";
 import Image from "next/image";
-import bg from '../../public/svg/Frame43.png'
+import bg from "../../public/svg/Frame43.png";
 import Navbar from "./navbar";
 import Whitebg from "./Whitebg";
 import Footer from "./footer1";
 
-
 function Frame23() {
   return (
-    <div className="m-0 w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}> 
-    <Navbar/>
+    <div
+      className="m-0 w-full overflow-x-hidden box-border"
+      style={{ backgroundImage: `url(${bg.src})` }}
+    >
+      <Navbar />
       {/* section1 */}
       <section className="text-white">
         <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
-            <h3 className="text-[#FFEE40] text-3xl mb-5">DIGITAL TRANSFORMATION</h3>
+            <h3 className="text-[#FFEE40] text-3xl mb-5">
+              DIGITAL TRANSFORMATION
+            </h3>
             <h1 className="text-[#FFFFFF] text-6xl mb-5">
               <b>Advanced analytics</b>
             </h1>
@@ -25,26 +28,30 @@ function Frame23() {
               comprehensive solutions across industries in information
               management, data governance and advanced analytics that unlock
               organisational potential, enabling informed decision making,
-              leveraging your company’s most valuable data assets to increase
-              shareholder value.
+              leveraging your {"company’s"} most valuable data assets to
+              increase shareholder value.
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
             <Image
-              className="object-cover object-center rounded z-10"
+              className="object-cover object-center rounded z-10 "
               alt="earth"
               src="/icons/earth.png"
+              width={428}
+              height={427}
             />
           </div>
         </div>
         <div className="container mx-auto px-1 py-4">
           <div className="mx-auto">
-          <h5 className="text-6xl">
-           <b> Our Analytics Platform Takes <br />
-            Away The Hard Process Of Data Processing </b>
-          </h5>
+            <h5 className="text-6xl">
+              <b>
+                {" "}
+                Our Analytics Platform Takes <br />
+                Away The Hard Process Of Data Processing{" "}
+              </b>
+            </h5>
           </div>
-            
         </div>
       </section>
 
@@ -87,6 +94,8 @@ function Frame23() {
               className="object-cover object-center rounded z-10"
               alt="data"
               src="/icons/data.png"
+              width={300}
+              height={277}
             />
           </div>
         </div>
@@ -100,6 +109,8 @@ function Frame23() {
               className="object-cover object-center rounded z-10"
               alt="database"
               src="/icons/database.png"
+              width={373}
+              height={373}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
@@ -150,7 +161,7 @@ function Frame23() {
               technology to deliver and resolve <br /> complex data-centric
               challenges while getting the best outcomes.
             </p>
-            <div class="mb-7 flex flex-wrap justify-between gap-4">
+            <div className="mb-7 flex flex-wrap justify-between gap-4">
               <button className="inline-flex items-center bg-[#12172D] border-2 border-[#FFFFFF] py-1 px-3 focus:outline-none hover:bg-[#FFFFFF] hover:text-[#12172D] rounded-full text-base mt-4 md:mt-0 text-[#FFFFFF]">
                 Big Data Consulting
               </button>
@@ -172,10 +183,10 @@ function Frame23() {
         </div>
       </section>
 
-      <Whitebg/>
-      <Footer/>
+      <Whitebg />
+      <Footer />
     </div>
   );
 }
 
-export default Frame23
+export default Frame23;
