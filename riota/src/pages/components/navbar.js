@@ -15,8 +15,8 @@ const Navbar=()=>{
         <div className="nav  my-14 pr-24 ">
              <ul className="flex flex-row space-x-10 text-base font-semibold font-abc cursor-pointer ">
                  <li>
-                     <Link href={"/Home"}>
-                         Home
+                     <Link href="/home"  legacyBehavior>
+                         <a>Home</a>
                      </Link>
                  </li>
                  <li>
@@ -35,7 +35,7 @@ const Navbar=()=>{
                      </Link>
                  </li>
                  <li >
-                     <Link href='/Contact'>
+                     <Link href='pages/contact'>
                          <button className="rounded-full w-28 h-12 -mt-5 bg-white text-black cursor-pointer">Contact Us </button>
                      </Link>
                  </li>

@@ -1,6 +1,7 @@
 import bg from '../../../public/svg/Frame43.png'
 import Image from "next/image";
 import Navbar from "./navbar";
+import Footer from './footer1';
 function Home(){
     return(
         <div className=" w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}>
@@ -118,7 +119,7 @@ function Home(){
            </div>
 
            <div className='foursec  flex flex-row '>
-                <div className='leftside w-[30%] flex flex-row ml-20'>
+                <div className='leftside w-[30%] flex flex-row ml-32'>
                     <div className='font-bold text-white text-[60px]  py-7'>Digital Transformation</div>
                 </div>
                 <div className='rightside  mt-8 ml-[150px] '>
@@ -225,9 +226,6 @@ function Home(){
                     <div className='h-[73px] w-[186px] rounded-full bg-[#12172D]  text-white font-bold text-xl text-center p-5 -ml-44'>Subscribe</div>
                     </div>
                 </div>
-
-           
-           
            </div>
 
            <div className='10sec flex flex-col justify-center items-center my-32'>
@@ -320,7 +318,7 @@ function Home(){
             </div>
 
             <div className='flex justify-evenly '>
-                <div className=' font-abc w-[400px]  mb-20'>
+                <div className=' font-abc w-[400px]  mb-36'>
                     <div className='font-bold font text-3xl text-[#FFEE40]'>CLIENTS</div>
                     <div className='font-bold text-white text-[60px]  '>Our Valuable Clients</div>
                     <div className='text-white text-lg font-medium'>We value our customers because valuable 
@@ -335,6 +333,7 @@ function Home(){
                     />
                 </div>
             </div>
+            <Footer/>
       
         </div>
     )
