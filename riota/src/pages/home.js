@@ -11,12 +11,13 @@ function Home(){
                 <div className='leftside w-[70%] flex flex-row mx-5'>
                     <div className='socialMediabar flex flex-col p-6 '>
                         <ul>
-                            <li className='pb-2 ml-3'>
+                            <li className='pb-2 ml-3 w-auto h-auto'>
                                 <Image 
                                     src="/svg/verticalbar.svg"
                                     alt="vertical"
                                     width="5"
                                     height="1"
+                                    style={{width:"auto",height:"auto"}}
                                 />
                             </li>
                             <li className='py-2'>
@@ -57,6 +58,7 @@ function Home(){
                                     alt="vertica;"
                                     width="5"
                                     height="1"
+                                    style={{width:"auto",height:"auto"}}
                                 />
                             </li>
                         </ul>
@@ -76,6 +78,7 @@ function Home(){
                         alt="earth"
                         width={700}
                         height={500}
+                        style={{width:"auto",height:"auto"}}
                     />
                 </div>
            </div>
@@ -86,6 +89,7 @@ function Home(){
                     alt="arrow"
                     width={15}
                     height={30}
+                    style={{width:"auto",height:"auto"}}
                 />
            </div>
 
@@ -243,12 +247,14 @@ function Home(){
                             alt='arrow'
                             width={33}
                             height={17}
+                            style={{width:"auto",height:"auto"}}
                         />
                         <Image 
                             src="/svg/rightArrow.svg"
                             alt='arrow'
                             width={33}
                             height={17}
+                            style={{width:"auto",height:"auto"}}
                         />
                      </div>
                 </div>
@@ -279,7 +285,7 @@ function Home(){
                                 src="/svg/quality.svg"
                                 width={80}
                                 height={80}
-                                alt=''
+                                alt='quality'
                             />
                             <div className='text-[30px] font-bold mt-5'>ISO 9001:2015</div>
                             <div className='text-lg font-bold '>Quality Management System</div>
@@ -289,7 +295,7 @@ function Home(){
                                 src="/svg/membership.svg"
                                 width={45}
                                 height={45}
-                                alt=''
+                                alt='membership'
                             />
                             <div className='text-[30px] font-bold mt-5'>NASSCOM</div>
                             <div className='text-lg font-bold '>Certificate of Membership</div>
@@ -299,7 +305,7 @@ function Home(){
                                 src="/svg/management.svg"
                                 width={50}
                                 height={60}
-                                alt=''
+                                alt='membership'
                             />
                             <div className='text-[30px] font-bold mt-5 '>ISO/IEC 27001:2013</div>
                             <div className='text-lg font-bold '>Information Security Management</div>
