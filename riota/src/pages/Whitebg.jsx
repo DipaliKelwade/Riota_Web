@@ -36,7 +36,7 @@ function Whitebg() {
                 placeholder="Enter Your Email "
               />
 
-              <div className="h-[73px] w-[186px] rounded-full bg-[#12172D]  text-white font-bold text-xl text-center p-5 -ml-44">
+              <div className="h-[73px] w-[186px] rounded-full bg-[#12172D] cursor-pointer  text-white font-bold text-xl text-center p-5 -ml-44">
                 Subscribe
               </div>
             </div>

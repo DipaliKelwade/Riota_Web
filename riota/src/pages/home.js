@@ -69,7 +69,7 @@ function Home(){
                         <div className='text-white text-lg font-medium'>We are leaders, thinkers and makers at your service. Dedicating our knowledge 
                         to create user-centric designs backed by our experience. Our team is our 
                         major strength in providing qualitative products.</div>
-                        <div className="border-2  rounded-full border-solid border-white  font-bold text-base text-white h-12 w-32 text-center p-2 my-7">{"Let's Start"}</div>
+                        <div className="border-2  rounded-full border-solid border-white  font-bold text-base text-white h-12 w-32 text-center p-2 my-7 cursor-pointer">{"Let's Start"}</div>
                     </div>
                 </div>
                 <div className='rightside w-[30%] mt-8'> 
@@ -109,7 +109,7 @@ function Home(){
                         <div className='text-white text-lg font-medium'>At RIOTA, we strongly believe in delivering innovative customer centric t
                         echnology solutions and services that enable clients to meet-up their business 
                         and IT challenges.Our Digital Automation process such as Cloud Automaton Services, Robotic Process Automation Services, help you to expedite your revenue growth and redesign your business operations.Ever since our establishment, we are growing every day to meet the growing demands of our clients and surpass their expectations.</div>
-                        <div className='border-2  rounded-full border-solid border-white  font-bold text-base text-white h-12 w-32 text-center p-2 my-7'>Read More</div>
+                        <div className='border-2  rounded-full border-solid border-white  font-bold text-base text-white h-12 w-32 text-center p-2 my-7 cursor-pointer'>Read More</div>
                     </div>
                 </div>
            </div>
@@ -123,12 +123,12 @@ function Home(){
                 </div>
            </div>
 
-           <div className='foursec  flex flex-row '>
-                <div className='leftside w-[30%] flex flex-row ml-32'>
+           <div className='foursec  flex flex-row  justify-evenly'>
+                <div className='leftside w-[30%] '>
                     <div className='font-bold text-white text-[60px]  py-7'>Digital Transformation</div>
                 </div>
-                <div className='rightside  mt-8 ml-[150px] '>
-                    <div className='leftText font-abc w-[700px] flex flex-col justify-center mx-24 '>
+                <div className='rightside  '>
+                    <div className='leftText font-abc w-[700px] flex flex-col justify-center  '>
                         <div className='text-white text-lg font-normal'>Digital technologies — including social media, the cloud, data analytics, and mobile — are rapidly emerging as disruptive forces for businesses across all industries, from Healthcare and Logistics to Manufacturing and Transport.</div>
                         <div className='point text-yellow-300 font-abc text-lg flex flex-row justify-evenly items-center mt-7 leading-10'>
                             <ul className='list-disc'>
@@ -148,8 +148,8 @@ function Home(){
                 </div>
            </div>
 
-           <div className='fivesec my-24  flex flex-row'>
-                <div className='leftside  mt-8 ml-[150px]'>
+           <div className='fivesec my-24  flex flex-row justify-evenly'>
+                <div className='leftside  mt-8 '>
                     <div className='leftText font-abc w-[700px] flex flex-col justify-center  '>
                         <div className='text-white text-lg font-normal'>We use Agile methodology for faster development to accelerate the creation, modernization, delivery and maintenance of high-quality, secure applications allowing you to innovate faster while reducing risk, time to market, total cost of ownership and agility to enable you to meet business needs , now and in the future.</div>
                         <div className='point text-yellow-300 font-abc text-lg ml-3 mt-7 leading-10'>
@@ -162,16 +162,16 @@ function Home(){
                         </div>
                     </div>
                 </div>
-                <div className='rightside w-[30%]  '>
-                <div className='font-bold text-white text-[60px] ml-[250px] py-7'>Application Services </div>
+                <div className='rightside w-[30%]  ml-20'>
+                <div className='font-bold text-white text-[60px]  py-7'>Application Services </div>
             </div>
            </div>
 
-           <div className='sixsec  ml-36 flex flex-row '>
+           <div className='sixsec  ml-36 flex flex-row justify-evenly '>
                 <div className='leftside w-[30%] flex flex-row ml-20'>
                     <div className='font-bold text-white text-[60px]  py-7'>Engineering Services</div>
                 </div>
-                <div className='rightside  mt-8 ml-[150px] '>
+                <div className='rightside  mt-8 '>
                     <div className='leftText font-abc w-[700px] flex flex-col justify-center  '>
                         <div className='text-white text-lg font-normal'>With advanced tools and technologies and engineering expertise we build end-to-end software development services covering seamless and responsive interfaces and design experiences that will support round-the-clock to organizations across the globe. Our strong team of subject matter experts provides best-in-class solutions to established and emerging enterprises across different industry verticals.</div>
                         <div className='point text-yellow-300 font-abc text-lg ml-3 mt-7 leading-10'>
@@ -187,7 +187,7 @@ function Home(){
            </div>
 
            <div className='sevensec flex flex-col justify-center items-center my-32'>
-                <div className=' font-abc w-[800px] text-center '>
+                <div className=' font-abc w-[800px] text-center gap-10'>
                     <div className='font-bold font text-3xl text-yellow-300'>Why Choose Us</div>
                     <div className='font-bold text-white text-[60px]  '>Why RIOTA stands best</div>
                     <div className='text-white text-lg font-medium'>We have a small team & work exclusively with each client. 
