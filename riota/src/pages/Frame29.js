@@ -102,7 +102,7 @@ export default function Frame29() {
               support best in class business processes.
             </p>
             <ul className="mt-12 text-xl">
-              <p classNmae="mt-20">Solution concept:</p>
+              <p className="mt-20">Solution concept:</p>
               <li>● Analyse your business strategy and requirements</li>
               <li className="mt-2">
                 ● Assess business processes and the IT landscape

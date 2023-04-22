@@ -16,6 +16,7 @@ function Whitebg() {
           <div className="left flex justify-center align-middle items-center relative flex-1">
             <Image
               src="/icons/whitebg_forward.png"
+              alt="whitebg_forward"
               width={500}
               height={400}
               className="w-[407px] h-[303px]"

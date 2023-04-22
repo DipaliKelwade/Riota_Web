@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Navbar from "./navbar";
+import Footer from "./footer1";
 import JoinNews from "./JoinNews"
 import bg from "../../public/svg/F27bg.svg";
-import Footer from "./footer1";
 
 export default function Frame27() {
   return (
@@ -34,7 +34,7 @@ export default function Frame27() {
                 Spanning across both the web and mobile applications, Artificial
                 Intelligence will make your business smarter on every corner.
                 Offering value for money through our high-octane AI development
-                services, {"it’s"} time to step into the world of AI. Hire our AI
+                services, it’s time to step into the world of AI. Hire our AI
                 consulting, development, and integration services to improve
                 your interaction with end users thereby improving the business
                 performance..
@@ -113,7 +113,7 @@ export default function Frame27() {
               <h3>04 - NATURAL LANGUAGE PROCESSION (NLP)</h3>
 
               <ul className="mt-12 text-xl">
-                <li>● Understand {"customers’"} sentiments</li>
+                <li>● Understand customers’ sentiments</li>
                 <li className="mt-2">
                 ● Make data-backed decisions
                 </li>
@@ -154,9 +154,8 @@ export default function Frame27() {
             
         </div>
         </div>
-        <Footer/>
+        
       </div>
-
     </>
   );
 }

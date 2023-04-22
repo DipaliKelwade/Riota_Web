@@ -44,6 +44,8 @@ function Frame56() {
                 className="object-cover object-center rounded z-10"
                 alt="earth"
                 src="/icons/earth.png"
+                width={428}
+              height={427}
               />
             </div>
           </div>
@@ -84,7 +86,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/pcb.png"
-                    alt="board"
+                    alt="pcb"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -102,7 +104,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/product.png"
-                    alt="board"
+                    alt="product"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -118,7 +120,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/verification.png"
-                    alt="board"
+                    alt="verification"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -136,7 +138,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/compliance.png"
-                    alt="board"
+                    alt="compliance"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -152,7 +154,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/embedded.png"
-                    alt="board"
+                    alt="embedded"
                     width={100}
                     height={100}
                     className="w-10 h10"
@@ -168,7 +170,7 @@ function Frame56() {
                 <div className="p-5">
                   <Image
                     src="/icons/wireless.png"
-                    alt="board"
+                    alt="wireless"
                     width={100}
                     height={100}
                     className="w-10 h10"
