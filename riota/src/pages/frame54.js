@@ -17,7 +17,7 @@ export default function Frame54() {
 
       <div
         className="w-full  overflow-hidden"
-        style={{ backgroundImage: `url(${bg.src})`, height: "4500px" }}
+        style={{ backgroundImage: `url(${bg.src})`, height: "4700px" }}
       >
       <Navbar />
         <div className="ml-28 mt-24">
@@ -286,7 +286,9 @@ export default function Frame54() {
         <div >
         <SubtoNew />
       </div>
-      <Footer/>
+     <div className="mt-12">
+     <Footer/>
+     </div>
       </div>
 
       
