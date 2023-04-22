@@ -28,7 +28,7 @@ const Navbar=()=>{
                  <li>
                      <Link href={""}>
                         <div onClick={()=> setIsOpen((prev)=>!prev)} className="flex flex-row ">Digital Transformation
-                            <Image className="-mt-2" src="/svg/down-24.png" width={20} height={30}  alt=""/>
+                            <Image className="-mt-2" src="/svg/arrowdown.png" width={30} height={30}  alt=""/>
                         </div>
                         {isOpen &&<div  className="bg-gray-500  rounded-lg  mt-2 p-8 absolute ">
                                 <ul className="flex flex-col gap-4 text-white ">
@@ -76,7 +76,9 @@ const Navbar=()=>{
 
                  <li>
                      <Link href={''}>
-                     <div onClick={()=> setIsOpen1((prev)=>!prev)}>IT Services</div>
+                     <div onClick={()=> setIsOpen1((prev)=>!prev)} className="flex flex-row ">IT Services
+                        <Image className="-mt-2" src="/svg/arrowdown.png" width={30} height={30}  alt=""/>
+                     </div>
                      {isOpen1 &&<div className="bg-gray-500  rounded-lg  mt-2 p-10 absolute">
                              <ul className="flex flex-col gap-3 text-white ">
                                  <li>

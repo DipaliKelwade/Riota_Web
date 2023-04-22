@@ -56,7 +56,7 @@ function Contact(){
                 </div>
                 <div className='rightsec w-[624px]'>
                 <div className='font-bold font text-3xl text-yellow-300'>Contact Me</div>
-                <div className='font-bold text-white text-[60px] '>Let's build something together...</div>
+                <div className='font-bold text-white text-[60px] '>{"Let's build something together..."}</div>
                 <div className='my-10'>
                     <ul className= ' flex flex-col gap-6 text-xl font-normal opacity-[0.90] '>
                         <li>
