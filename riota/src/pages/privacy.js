@@ -157,7 +157,7 @@ function privacy() {
           (“Usage Data”).
         </p>
         <p className="relative font-medium font-abc text-white text-[18px]">
-          This Usage Data may include information such as your computer’s
+          This Usage Data may include information such as your {"computer’s"}
           Internet Protocol address (e.g. IP address), browser type, browser
           version, the pages of our Service that you visit, the time and date of
           your visit, the time spent on those pages, unique device identifiers
@@ -315,8 +315,8 @@ function privacy() {
       </div>
       <div className="relative inset-x-0  ml-[8%] mr-[8%] width-[10%] ">
         <p className="relative font-medium font-abc text-white text-[18px]">
-          Your information, including Personal Data, may be transferred to – and
-          maintained on – computers located outside of your state, province,
+          Your information, including Personal Data, may be transferred to {"–"}and
+          maintained on {"–"} computers located outside of your state, province,
           country or other governmental jurisdiction where the data protection
           laws may differ from those of your jurisdiction.
         </p>
@@ -368,7 +368,7 @@ function privacy() {
           0.2.3. to fulfill the purpose for which you provide it;
         </p>
         <p className="relative font-medium font-abc text-white text-[18px]">
-          0.2.4. for the purpose of including your company’s logo on our
+          0.2.4. for the purpose of including your {"company’s"} logo on our
           website;
         </p>
         <p className="relative font-medium font-abc text-white text-[18px]">
@@ -471,7 +471,7 @@ function privacy() {
       <div className="relative inset-x-0  ml-[8%] mr-[8%] width-[10%] ">
         <p className="relative font-medium font-abc text-white text-[18px]">
           CalOPPA is the first state law in the nation to require commercial
-          websites and online services to post a privacy policy. The law’s reach
+          websites and online services to post a privacy policy. The {"law’s"} reach
           stretches well beyond California to require a person or company in the
           United States (and conceivable the world) that operates websites
           collecting personally identifiable information from California
@@ -579,7 +579,7 @@ function privacy() {
           that require your personal information to operate.
         </p>
         <p className="relative font-medium font-abc text-white text-[18px]">
-          0.3. To stop selling your personal information. We don’t sell or rent
+          0.3. To stop selling your personal information. We {"don’t"} sell or rent
           your personal information to any third parties for any purpose. We do
           not sell your personal information for monetary consideration.
           However, under some circumstances, a transfer of personal information
@@ -673,7 +673,7 @@ function privacy() {
         <p className="relative font-medium font-abc text-white text-[18px]">
           Our Service may contain links to other sites that are not operated by
           us. If you click a third party link, you will be directed to that
-          third party’s site. We strongly advise you to review the Privacy
+          third {"party’s"} site. We strongly advise you to review the Privacy
           Policy of every site you visit.
         </p>
         <p className="relative font-medium font-abc text-white text-[18px]">
@@ -683,7 +683,7 @@ function privacy() {
       </div>
       <div className="relative inset-x-0 ml-[8%]  mt-[4%]">
         <h2 className="relative font-extrabold font-abc text-white text-[40px]">
-          18. Children’s Privacy
+          18. {"Children’s"} Privacy
         </h2>
       </div>
       <div className="relative inset-x-0  ml-[8%] mr-[8%] width-[10%] ">

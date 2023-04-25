@@ -166,7 +166,7 @@ export default function Frame29() {
       </div>
 
       <div style={{backgroundImage:`url(${bg.src})`,height:"600px"}}>
-        <div style={{marginTop:"-1000px"}}>
+        <div style={{marginTop:"-900px"}}>
             <SubtoNew/>
         </div>
         </div>
