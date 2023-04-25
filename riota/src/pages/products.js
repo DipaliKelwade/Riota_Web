@@ -14,7 +14,7 @@ function product (){
                 <h2 className='font-extrabold relative text-[30px] font-abc text-yellow-400 mt-[8%] ml-[8%]'>RIOTA Products and Services</h2>
                 <p className='font-extrabold relative text-[60px] font-abc text-white ml-[8%]'>BUILD YOUR IOT<br></br>SOLUTIONS WITH RIOTA</p>
                 <p className='relative text-[18px] font-abc text-white ml-[8%]'>We offer a wide range of IoT hardware and software development<br></br>services to build sleek web and mobile IoT applications for the<br></br>users of edge intelligence.</p>
-                <Image className='relative mt-[-27%] ml-[60%]'
+                <Image className='max-sm:ml-[25%] max-sm:mt-[10%] max-sm:w-[50%] relative mt-[-27%] ml-[60%]'
                 alt=''
                 src="/images/Illustration.png"
                 height={500}
@@ -26,7 +26,7 @@ function product (){
             <div className='flex flex-row'>
             <div>
             <a href='#'>
-            <Image className='ml-[32%] mt-[2%]'
+            <Image className='max-sm:w-[80%] max-sm:ml-[50%] ml-[32%] mt-[2%]'
             alt=''
             src="/images/smartvending.png"
             width={370}
@@ -34,48 +34,48 @@ function product (){
             <p className='whitespace-nowrap relative text-[25px] font-abc text-white ml-[47%] mt-[1%]'>Smart Vending Machine</p>
             </a>
             </div>
-            <div>
+            <div className='max-sm:mt-[60%] max-sm:ml-[-67%]'>
             <a href='#'>
-            <Image className='ml-[55%] mt-[2%]'
+            <Image className='max-sm:w-[60%] ml-[55%] mt-[2%]'
             alt=''
             src="/images/vms.png"
             width={370}
             height={400}/>
-            <p className='whitespace-nowrap relative  text-[25px] font-abc text-white ml-[57%] mt-[1%] align-middle'>VMS User & Admin Application <br></br>for Vending Machine</p>
+            <p className='max-sm:ml-[40%] whitespace-nowrap relative  text-[25px] font-abc text-white ml-[57%] mt-[1%] align-middle'>VMS User & Admin Application <br></br>for Vending Machine</p>
             </a>
             </div>
-            <div>
+            <div className='max-sm:mt-[130%] max-sm:w-[200%]'>
             <a href='#'>
-            <Image className='ml-[75%] mt-[2%]'
+            <Image className='max-[728px]:w-[100%] max-sm:ml-[-75%] ml-[75%] mt-[2%]'
             alt=''
             src="/images/webportal.png"
             width={370}
             height={400}/>
-            <p className='whitespace-nowrap relative  text-[25px] font-abc text-white ml-[110%] mt-[1%]'>Web Portal</p>
+            <p className='max-sm:ml-[-60%] whitespace-nowrap relative  text-[25px] font-abc text-white ml-[110%] mt-[1%]'>Web Portal</p>
             </a>
             </div>
            
 
             </div>
-            <div className='flex flex-row'>
-            <div>
+            <div className='flex flex-row max-sm:flex flex-column '>
+            <div >
             <a href='#'>
-            <Image className='ml-[95%] mt-[2%]'
+            <Image className=' max-[728px]:w-[95%] max-[728px]:ml-[55%] ml-[95%] mt-[2%]'
             alt=''
             src="/images/sowkea.png"
             width={370}
             height={400}/>
-            <p className='whitespace-nowrap relative  text-[25px] font-abc text-white ml-[125%] mt-[1%]'>Sowkea App</p>
+            <p className='max-[728px]:ml-[75%] whitespace-nowrap relative  text-[25px] font-abc text-white ml-[125%] mt-[1%]'>Sowkea App</p>
             </a>
             </div>
             <div>
             <a href='#'>
-            <Image className='ml-[110%] mt-[2%]'
+            <Image className=' max-[728px]:w-[90%] max-[728px]:mt-[130%] max-[728px]:ml-[-42%] ml-[110%] mt-[2%]'
             alt=''
             src="/images/VAC.png"
             width={370}
             height={400}/>
-            <p className='whitespace-nowrap relative  text-[25px] font-abc text-white ml-[125%] mt-[1%]'>V.A.C Therapy System</p>
+            <p className='max-[728px]:ml-[-45%] whitespace-nowrap relative  text-[25px] font-abc text-white ml-[125%] mt-[1%]'>V.A.C Therapy System</p>
             </a>
             </div>
 
@@ -91,7 +91,7 @@ function product (){
                 <div className='flex flex-row'>
                 <div className='ml-[15%] mt-[5%] relative'>
                     <h3 className='text-white text-[30px] font-abc'>EMBEDDED TECHNOLOGIES</h3>
-                    <div className='flex flex-row space-x-10 ml-[-22%] mt-[3%]'>
+                    <div className='max-[728px]:w-[15%] flex flex-row space-x-10 ml-[-22%] mt-[3%]'>
                         <Image
                         src="/images/technologies/icon1.png"
                         alt=''
@@ -125,9 +125,9 @@ function product (){
                     </div>
                 </div>
 
-                <div className='ml-[20%] mt-[5%] relative'>
-                    <h3 className='text-white text-[30px] font-abc'>MOBILE TECHNOLOGIES</h3>
-                    <div className='flex flex-row space-x-10 ml-[-25%] mt-[3%]'>
+                <div className='ml-[20%] mt-[5%] relative max-[728px]:mt-[40%] max-[728px]:ml-[-95%]'>
+                    <h3 className=' text-white text-[30px] font-abc'>MOBILE TECHNOLOGIES</h3>
+                    <div className='max-[728px]:w-[15%] flex flex-row space-x-10 ml-[-25%] mt-[3%]'>
                         <Image
                         src="/images/technologies/icon7.png"
                         alt=''
@@ -161,9 +161,9 @@ function product (){
                     </div>
                 </div>
                 </div>
-                <div className='ml-[41%] mt-[5%] relative'>
+                <div className='ml-[41%] mt-[5%] relative max-[728px]:ml-[16%]'>
                     <h3 className='text-white text-[30px] font-abc'>MOBILE TECHNOLOGIES</h3>
-                    <div className='flex flex-row space-x-10 ml-[-15%] mt-[3%]'>
+                    <div className=' max-[728px]:w-[11%] flex flex-row space-x-10 ml-[-15%] mt-[3%]'>
                         <Image
                         src="/images/technologies/icon13.png"
                         alt=''
