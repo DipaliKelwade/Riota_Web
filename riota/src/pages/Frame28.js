@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import SubtoNew from "./SubtoNew";
 import bg from "../../public/svg/F27bg.svg";
 import "../../public/svg/g12.svg";
+import Footer from "./footer1"
 
 
 export default function Frame28() {
@@ -17,7 +18,7 @@ export default function Frame28() {
 
       <div
         className="w-full -mt-24"
-        style={{ backgroundImage: `url(${bg.src})`, height: "4500px" }}
+        style={{ backgroundImage: `url(${bg.src})`, height: "5000px" }}
       >
         <div className="ml-28 mt-24">
           <h2 className="text-yellow-300 text-3xl font-semibold">
@@ -295,11 +296,13 @@ export default function Frame28() {
         </div>
       </div>
 
-      <div style={{ backgroundImage: `url(${bg.src})`, height: "500px" }}>
-        <div style={{ marginTop: "-100px" }}>
+      <div style={{ backgroundImage: `url(${bg.src})`}}>
+        <div style={{ marginTop: "-300px" }}>
           <SubtoNew />
         </div>
-        <Navbar/>
+        <div className="mt-12">
+        <Footer/>
+        </div>
       </div>
     </>
   );

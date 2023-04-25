@@ -12,7 +12,7 @@ export default function JoinNews() {
        </div>
 
       </div>
-      <Footer/>
+     
     </div>
   )
 }

@@ -16,6 +16,7 @@ function svm(){
             <div className='ml-[9%] mr-[9%]'>
                 <Image
                 src="/images/Svm/svm.png"
+                alt=''
                 width={1240}
                 height={600}/>
             </div>

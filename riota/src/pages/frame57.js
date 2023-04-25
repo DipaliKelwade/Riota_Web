@@ -163,7 +163,7 @@ export default function Frame57() {
               <li className="mt-6">
                 ● Detailing of the concept in more technical form through
                 collaborative engagement with the customer, understanding
-                customers' requirements, business process and creating necessary
+                customers requirements, business process and creating necessary
                 specs for the product.
               </li>
               <li className="mt-6">
@@ -411,7 +411,9 @@ export default function Frame57() {
           
         </div>
       </div> 
+    <div style={{ backgroundImage: `url(${bg.src})`}}>
     <Footer/>
+    </div>
     </>
   );
 }
