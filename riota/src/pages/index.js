@@ -19,8 +19,6 @@ function index(){
   return(
     <div>
     <Home/>
-    
-
     </div>
   )
 }
