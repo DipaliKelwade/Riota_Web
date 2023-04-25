@@ -18,7 +18,7 @@ function Contact(){
                             
                         />
                     </div>
-                    <div className=' '>
+                    <div className='w-[650px]  lg:w-[400px] '>
                         <ul className='mt-24 flex flex-col gap-8'>
                             <li className='flex flex-row gap-3 items-center text-2xl font-bold'>
                                 <Image
@@ -57,7 +57,7 @@ function Contact(){
                 <div className='rightsec w-[624px]'>
                 <div className='font-bold font text-3xl text-yellow-300'>Contact Me</div>
                 <div className='font-bold text-white text-[60px] '>{"Let's build something together..."}</div>
-                <div className='my-10'>
+                <div className='my-10 w-[500px] lg:w-[300px]'>
                     <ul className= ' flex flex-col gap-6 text-xl font-normal opacity-[0.90] '>
                         <li>
                             <h5>Name</h5>

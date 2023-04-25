@@ -125,7 +125,7 @@ function About(){
                 </div>
             </div>
 
-           <div className='container m-auto grid grid-cols-4 gap-11'>
+           <div className='container m-auto grid grid-cols-4 gap-11 2xl:ml-32 mx-10' >
                 <div className="rounded-xl w-[295px] h-[181px] mx-auto bg-gradient-to-br p-[3px] from-[#ffffff] via-[#8a8a8a] to-[#000000]">
                     <div className="flex flex-col justify-center items-center gap-7 h-full bg-[#12172D] text-white rounded-lg">
                         <Image src="/svg/glob.svg" width={55} height={53} alt='glob'/>
@@ -176,42 +176,44 @@ function About(){
                 </div>
             </div>
 
-            <div className='11sec  mt-32 mx-40 flex flex-row '>
-                <div className='leftText font-abc w-[800px] flex flex-col  '>
-                    <div className='font-bold font text-3xl text-[#FFEE40]'>TESTIMONIAL</div>
-                    <div className='font-bold text-white text-[60px]  py-2'>What Client Say </div>
-                    <div className='text-white text-lg font-medium'>We always Appreciate any feedback from our client. But what 
-                    could be better than a positive review from a happy customer?</div>
-                    <div className='flex flex-row my-12 gap-8'>
-                        <Image 
-                            src="/svg/leftArrow.svg"
-                            alt='arrow'
-                            width={33}
-                            height={17}
-                        />
-                        <Image 
-                            src="/svg/rightArrow.svg"
-                            alt='arrow'
-                            width={33}
-                            height={17}
-                        />
-                     </div>
-                </div>
-                <div className='h-[381px] w-[610px] rounded-3xl bg-gradient-to-tr from-gray-300 to-gray-800 font-abc px-12'>
-                    <p className='text-white font-bold text-lg  pt-10 text-justify '>I would like to thank the RIOTA team for their professional work and detail oriented. Initially our project with RIOTA was to develop an app for Vending machines , 
-                    but We ended up doing many other creative projects like Touchless-mobile app , Web portal for real time data, related to IoT vending machines. You have shown 
-                    to have very competent resources, and have delivered the quality that our team was expecting on time.</p>
-                    <p className='text-white font-bold text-lg '>-Prakash, General Manager</p>
-                    <div className='pt-4'>
-                        <Image
-                            src="/svg/stars.svg"
-                            alt='stars'
-                            width={145}
-                            height={35}
-                        />
-                    </div>
+            <div className='11sec  flex flex-row justify-evenly  mt-24'>
+            <div className='leftText font-abc w-[500px] flex flex-col justify-center   '>
+                <div className='font-bold font text-3xl text-[#FFEE40]'>TESTIMONIAL</div>
+                <div className='font-bold text-white text-[60px]  py-2'>What Client Say </div>
+                <div className='text-white text-lg font-medium'>We always Appreciate any feedback from our client. But what 
+                could be better than a positive review from a happy customer?</div>
+                <div className='flex flex-row my-12 gap-8 cursor-pointer'>
+                    <Image 
+                        src="/svg/leftArrow.svg"
+                        alt='arrow'
+                        width={33}
+                        height={17}
+                        
+                    />
+                    <Image 
+                        src="/svg/rightArrow.svg"
+                        alt='arrow'
+                        width={33}
+                        height={17}
+                        
+                    />
+                 </div>
+            </div>
+            <div className='h-fit w-[510px] rounded-3xl bg-gradient-to-tr from-gray-300 to-gray-800 font-abc px-12 2xl:h-[381px]  2xl:w-[610px]'>
+                <p className='text-white font-bold text-lg  pt-10 text-justify '>I would like to thank the RIOTA team for their professional work and detail oriented. Initially our project with RIOTA was to develop an app for Vending machines , 
+                but We ended up doing many other creative projects like Touchless-mobile app , Web portal for real time data, related to IoT vending machines. You have shown 
+                to have very competent resources, and have delivered the quality that our team was expecting on time.</p>
+                <p className='text-white font-bold text-lg '>-Prakash, General Manager</p>
+                <div className='pt-4'>
+                    <Image
+                        src="/svg/stars.svg"
+                        alt='stars'
+                        width={145}
+                        height={35}
+                    />
                 </div>
             </div>
+        </div>
 
             <div className='12sec flex flex-col justify-center items-center my-28 '>
                 <div className='font-bold text-white text-[60px]  py-2  '>Our Certification </div>
@@ -253,7 +255,7 @@ function About(){
                 </div>
                 </div>
 
-                <div className='flex justify-evenly '>
+                <div className='flex justify-evenly items-center '>
                     <div className=' font-abc w-[400px]  mb-20'>
                         <div className='font-bold font text-3xl text-[#FFEE40]'>CLIENTS</div>
                         <div className='font-bold text-white text-[60px]  '>Our Valuable Clients</div>
@@ -271,13 +273,13 @@ function About(){
                     </div>
                 </div>
 
-                <div className='flex justify-evenly  mt-24'>
+                <div className='flex justify-evenly  items-center mt-24'>
                     <div>
                         <Image
                             src='/svg/partner.svg'
                             alt='clients'
-                            width={786}
-                            height={275}
+                            width={706}
+                            height={205}
                             
                         />
                     </div>

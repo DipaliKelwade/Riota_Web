@@ -22,7 +22,7 @@ function Home(){
                             </li>
                             <li className='py-2 cursor-pointer'>
                                 <Image 
-                                    src="/svg/FaceBook.svg"
+                                    src="/svg/facebook.svg"
                                     alt="fb"
                                     height="30"
                                     width="30" 
@@ -33,7 +33,7 @@ function Home(){
                                     src="/svg/twitter.svg"
                                     alt="twitter"
                                     height="30"
-                                    width="30" 
+                                    width="35" 
                                 />
                             </li>
                             <li className='py-2 cursor-pointer'>
@@ -41,14 +41,14 @@ function Home(){
                                     src="/svg/in.svg"
                                     alt="in"
                                     height="30"
-                                    width="30" 
+                                    width="33" 
                                 />
                             </li>
-                            <li className='py-2 cursor-pointer'>
+                            <li className='py-3 cursor-pointer'>
                             <Image 
                                 src="/svg/insta.svg"
                                 alt="insta"
-                                height="30"
+                                height="29"
                                 width="30" 
                             />
                             </li>
@@ -93,8 +93,8 @@ function Home(){
                 />
            </div>
 
-           <div className="secondsec  ml-36 flex flex-row">
-                <div className='leftside w-[30%] flex flex-row ml-12'>
+           <div className="secondsec  flex flex-row justify-evenly items-center ">
+                <div className='leftside w-[30%] ml-10 '>
                     <Image 
                         src="/svg/man2.svg"
                         alt="man"
@@ -102,8 +102,8 @@ function Home(){
                         height={445}
                     />
                 </div>
-                <div className='rightside w-[70%] mt-8 ml-[150px] '>
-                    <div className='leftText font-abc w-[800px] flex flex-col justify-center mx-20  '>
+                <div className='rightside mt-8  '>
+                    <div className='leftText font-abc w-[700px] flex flex-col justify-center '>
                         <div className='font-bold font text-3xl text-yellow-300'>RIOTA INNOVATIVE SOLUTIONS</div>
                         <div className='font-bold text-white text-[60px]  py-7'>Leaders,Thinkers & Makers</div>
                         <div className='text-white text-lg font-medium'>At RIOTA, we strongly believe in delivering innovative customer centric t
@@ -167,8 +167,8 @@ function Home(){
             </div>
            </div>
 
-           <div className='sixsec  ml-36 flex flex-row justify-evenly '>
-                <div className='leftside w-[30%] flex flex-row ml-20'>
+           <div className='sixsec   flex flex-row justify-evenly '>
+                <div className='leftside w-[30%] ml-20'>
                     <div className='font-bold text-white text-[60px]  py-7'>Engineering Services</div>
                 </div>
                 <div className='rightside  mt-8 '>
@@ -235,13 +235,13 @@ function Home(){
                 />
      
            </div>
-           <div className='11sec  flex flex-row justify-evenly '>
-                <div className='leftText font-abc w-[800px] flex flex-col justify-center   '>
+           <div className='11sec  flex flex-row justify-evenly  '>
+                <div className='leftText font-abc w-[500px] flex flex-col justify-center   '>
                     <div className='font-bold font text-3xl text-[#FFEE40]'>TESTIMONIAL</div>
                     <div className='font-bold text-white text-[60px]  py-2'>What Client Say </div>
                     <div className='text-white text-lg font-medium'>We always Appreciate any feedback from our client. But what 
                     could be better than a positive review from a happy customer?</div>
-                    <div className='flex flex-row my-12 gap-8'>
+                    <div className='flex flex-row my-12 gap-8 cursor-pointer'>
                         <Image 
                             src="/svg/leftArrow.svg"
                             alt='arrow'
@@ -258,7 +258,7 @@ function Home(){
                         />
                      </div>
                 </div>
-                <div className='h-[381px] w-[610px] rounded-3xl bg-gradient-to-tr from-gray-300 to-gray-800 font-abc px-12'>
+                <div className='h-fit w-[510px] rounded-3xl bg-gradient-to-tr from-gray-300 to-gray-800 font-abc px-12 2xl:h-[381px]  2xl:w-[610px]'>
                     <p className='text-white font-bold text-lg  pt-10 text-justify '>I would like to thank the RIOTA team for their professional work and detail oriented. Initially our project with RIOTA was to develop an app for Vending machines , 
                     but We ended up doing many other creative projects like Touchless-mobile app , Web portal for real time data, related to IoT vending machines. You have shown 
                     to have very competent resources, and have delivered the quality that our team was expecting on time.</p>
@@ -274,7 +274,7 @@ function Home(){
                 </div>
             </div>
 
-            <div className='12sec flex flex-col justify-center items-center my-28 '>
+            <div className='12sec flex flex-col justify-center items-center my-28  '>
                 <div className='font-bold text-white text-[60px]  py-2  '>Our Certification </div>
             
                 <div >
@@ -283,15 +283,16 @@ function Home(){
                             <Image
                                 
                                 src="/svg/quality.svg"
-                                width={80}
-                                height={80}
+                                width={70}
+                                height={70}
                                 alt='quality'
                             />
-                            <div className='text-[30px] font-bold mt-5'>ISO 9001:2015</div>
+                            <div className='text-[30px] font-bold mt-3'>ISO 9001:2015</div>
                             <div className='text-lg font-bold '>Quality Management System</div>
                         </li>
-                        <li className='flex flex-col justify-center items-center'>
+                        <li className='flex flex-col justify-center items-center '>
                             <Image
+                            className=''
                                 src="/svg/membership.svg"
                                 width={45}
                                 height={45}
@@ -315,8 +316,8 @@ function Home(){
 
             </div>
 
-            <div className='flex justify-evenly '>
-                <div className=' font-abc w-[400px]  mb-36'>
+            <div className='flex justify-evenly mb-36 '>
+                <div className=' font-abc w-[400px] '>
                     <div className='font-bold font text-3xl text-[#FFEE40]'>CLIENTS</div>
                     <div className='font-bold text-white text-[60px]  '>Our Valuable Clients</div>
                     <div className='text-white text-lg font-medium'>We value our customers because valuable 
@@ -326,8 +327,8 @@ function Home(){
                     <Image
                         src='/svg/client.svg'
                         alt='clients'
-                        width={786}
-                        height={275}
+                        width={776}
+                        height={265}
                     />
                 </div>
             </div>
