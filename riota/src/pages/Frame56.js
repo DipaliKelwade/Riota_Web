@@ -45,7 +45,7 @@ function Frame56() {
                 alt="earth"
                 src="/icons/earth.png"
                 width={428}
-              height={427}
+                height={427}
               />
             </div>
           </div>
@@ -292,91 +292,91 @@ function Frame56() {
                 includes.
               </p>
             </div>
-            <div className="flex flex-wrap -m-4">
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2  border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+            <div className="flex flex-wrap justify-center ">
+              <div className="p-4">
+                <div className="border-2  border-white rounded-3xl w-[295px] h-[140px]">
+                  <p className="text-xl text-center leading-relaxed p-3">
                     Hardware Abstraction Layer.
                   </p>
                 </div>
               </div>
 
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className=" p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px] ">
+                  <p className="text-xl text-center leading-relaxed p-3">
                     Device/protocol simulation.
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className=" p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px] ">
+                  <p className="text-xl text-center leading-relaxed p-3">
                     Embedded application development.
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className=" p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px] ">
+                  <p className="text-xl text-center leading-relaxed p-3">
                     Bespoke firmware development and deployment
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className=" p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px] ">
+                  <p className="text-xl text-center leading-relaxed p-3">
                     Communication protocol stack development/ integration
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className="p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px]">
+                  <p className="text-xl text-center leading-relaxed p-3">
                     Optimizations (performance power utilization etc.)
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className="p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px] ">
+                  <p className="text-xl text-center leading-relaxed p-3 ">
                     Boot loader porting and hardening, Minimum Kernel/OAL
                     Support.
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className=" p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px] ">
+                  <p className="text-xl text-center leading-relaxed p-3 ">
                     Tracking and monitoring solutions for the industries.
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className="p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px] ">
+                  <p className="text-xl text-center leading-relaxed p-3 ">
                     FPGA/CPLD based digital logic designs and IP cores.
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className="p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px]">
+                  <p className="text-xl text-center leading-relaxed p-3 ">
                     File System Integration, Memory optimization and Power
                     Management.
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className=" p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px] ">
+                  <p className="text-xl text-center leading-relaxed p-3 ">
                     Remote access and monitoring solutions for discrete and
                     process industries.
                   </p>
                 </div>
               </div>
-              <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="border-2 border-white p-6 rounded-3xl">
-                  <p className="text-2xl text-center leading-relaxed ">
+              <div className="p-4">
+                <div className="border-2 border-white rounded-3xl w-[295px] h-[140px]">
+                  <p className="text-xl text-center leading-relaxed p-3">
                     Board Bring up & verification, Diagnostics & Interrupt
                     routines.
                   </p>

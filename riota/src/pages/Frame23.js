@@ -24,7 +24,7 @@ function Frame23() {
             <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px]">
               Advanced analytics is the foundation for cognitive computing,
               machine learning, AI and bots. it brings static data to life and
-              unlocks the insight you've been searching for.We offer
+              unlocks the insight {"you've"} been searching for. We offer
               comprehensive solutions across industries in information
               management, data governance and advanced analytics that unlock
               organisational potential, enabling informed decision making,
