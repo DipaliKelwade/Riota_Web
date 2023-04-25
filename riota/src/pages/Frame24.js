@@ -12,7 +12,7 @@ const Frame24 = () => {
     >
       <Navbar />
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
             <h3 className="text-[#FFEE40] text-3xl mb-5">
               DIGITAL TRANSFORMATION
@@ -54,7 +54,7 @@ const Frame24 = () => {
       </section>
 
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
             <div className="container ">
               <h5 className="text-6xl mb-7">
@@ -101,7 +101,7 @@ const Frame24 = () => {
       </section>
 
       <section className="text-white">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-10 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 className="text-3xl sm:text-6xl font-extrabold title-font mb-2 text-white">
               <b> Our Business Usecases</b>

@@ -13,7 +13,7 @@ function Frame25() {
       <Navbar />
       <div>
         <section className="text-white">
-          <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+          <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
             <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
               <h3 className="text-[#FFEE40] text-3xl mb-5">
                 DIGITAL TRANSFORMATION
@@ -57,7 +57,7 @@ function Frame25() {
       </div>
 
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
             <div className="container  px-1">
               <h5 className="text-6xl mb-7">
@@ -95,7 +95,7 @@ function Frame25() {
       </section>
 
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
             <Image
               className="object-cover object-center rounded z-10"

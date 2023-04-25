@@ -13,7 +13,7 @@ function Frame56() {
       <Navbar />
       <div>
         <section className="text-white">
-          <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+          <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
             <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
               <h3 className="text-[#FFEE40] text-3xl mb-5">IT SERVICES</h3>
               <h1 className="text-[#FFFFFF] text-6xl font-bold">
@@ -57,7 +57,7 @@ function Frame56() {
         </section>
 
         <section className="text-white">
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container md:px-20 px-5 py-24 mx-auto">
             <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center text-18xl">
               <p className="  lg:w-1/2 w-full leading-relaxed text-white ">
                 {"RIOTA’s"} embedded services cover the entire spectrum of
@@ -187,7 +187,7 @@ function Frame56() {
         </section>
 
         <section className="text-white">
-          <div className="container mx-auto flex  px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+          <div className="container mx-auto flex md:px-20  px-5 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
             <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
               <div className="container ">
                 <h5 className="text-6xl ml-0 mb-7">
@@ -222,7 +222,7 @@ function Frame56() {
         </section>
 
         <section className="text-white">
-          <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+          <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10"></div>
             <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
               <h3 className="text-[#FFFFFF] text-3xl mb-7">
@@ -258,7 +258,7 @@ function Frame56() {
         </section>
 
         <section className="text-white">
-          <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+          <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
             <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
               <h3 className="text-[#FFEE40] text-3xl mb-5">IT SERVICES</h3>
               <h1 className="text-[#FFFFFF] text-6xl mb-5">
@@ -281,7 +281,7 @@ function Frame56() {
 
         <section className="text-white">
           <div className="container px-5 py-20 mx-auto">
-            <div className="container md:px-5 px-1">
+            <div className="container md:px-20 px-1">
               <h5 className="text-6xl text-center mb-5 ">
                 <b> FIRMWARE DEVELOPMENT SERVICES </b>
               </h5>

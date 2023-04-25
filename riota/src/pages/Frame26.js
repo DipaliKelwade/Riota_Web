@@ -1,16 +1,19 @@
 import Image from "next/image";
-import bg from '../../public/svg/Frame43.png';
+import bg from "../../public/svg/Frame43.png";
 import Whitebg from "./Whitebg";
 import Footer from "./footer1";
 import Navbar from "./navbar";
 
 function Frame26() {
   return (
-    <div className="m-0 w-full overflow-x-hidden box-border" style={{backgroundImage:`url(${bg.src})`}}>
-      <Navbar/>
+    <div
+      className="m-0 w-full overflow-x-hidden box-border"
+      style={{ backgroundImage: `url(${bg.src})` }}
+    >
+      <Navbar />
       <div>
         <section className="text-white">
-          <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+          <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
             <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
               <h3 className="text-[#FFEE40] text-3xl mb-5">
                 DIGITAL TRANSFORMATION
@@ -50,7 +53,7 @@ function Frame26() {
                 alt="earth"
                 src="/icons/earth.png"
                 width={428}
-              height={427}
+                height={427}
               />
             </div>
           </div>
@@ -58,10 +61,13 @@ function Frame26() {
       </div>
 
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
             <div className="container px-1">
-              <h5 className="text-6xl mb-7"> <b> Our Cloud Services </b></h5>
+              <h5 className="text-6xl mb-7">
+                {" "}
+                <b> Our Cloud Services </b>
+              </h5>
             </div>
             <h3 className="text-[#FFFFFF] text-3xl mb-7">
               01 - CLOUD STRATEGY AND SERVICES
@@ -100,7 +106,7 @@ function Frame26() {
       </section>
 
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
             <Image
               className="object-cover object-center rounded z-10"
@@ -112,28 +118,28 @@ function Frame26() {
           </div>
           <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
             <h3 className="text-[#FFFFFF] text-3xl mb-5">
-            04 - CLOUD MIGRATION
+              04 - CLOUD MIGRATION
             </h3>
             <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px] mb-7">
-            We have experience with all major cloud providers including Azure,
+              We have experience with all major cloud providers including Azure,
               AWS and Google Cloud. We will choose the right provider for you
               and lead your integration process.{" "}
             </p>
 
             <h3 className="text-[#FFFFFF] text-3xl mb-5">
-            05 - CLOUD MANAGEMENT
+              05 - CLOUD MANAGEMENT
             </h3>
             <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px] mb-5">
-            Our end-to-end cloud management services will help you with cloud
+              Our end-to-end cloud management services will help you with cloud
               migration and post-migration operations.
             </p>
-        </div>
+          </div>
         </div>
       </section>
-      <Whitebg/>
-      <Footer/>
+      <Whitebg />
+      <Footer />
     </div>
   );
 }
 
-export default Frame26
+export default Frame26;

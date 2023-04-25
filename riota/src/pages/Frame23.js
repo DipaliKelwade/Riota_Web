@@ -13,8 +13,8 @@ function Frame23() {
       <Navbar />
       {/* section1 */}
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0 flex flex-col md:items-start md:text-left items-center text-center">
             <h3 className="text-[#FFEE40] text-3xl mb-5">
               DIGITAL TRANSFORMATION
             </h3>
@@ -42,14 +42,12 @@ function Frame23() {
             />
           </div>
         </div>
-        <div className="container mx-auto px-1 py-4">
+        <div className="container mx-auto md:px-20 px-2 py-4">
           <div className="mx-auto">
             <h5 className="text-6xl font-bold">
-              
-                {" "}
-                Our Analytics Platform Takes <br />
-                Away The Hard Process Of Data Processing{" "}
-              
+              {" "}
+              Our Analytics Platform Takes <br />
+              Away The Hard Process Of Data Processing{" "}
             </h5>
           </div>
         </div>
@@ -57,7 +55,7 @@ function Frame23() {
 
       {/* section2 */}
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
             <h3 className="text-[#FFFFFF] text-3xl mb-7">
               01 - ENTERPRISE DATA
@@ -103,7 +101,7 @@ function Frame23() {
 
       {/* section3 */}
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10">
             <Image
               className="object-cover object-center rounded z-10"
@@ -152,7 +150,7 @@ function Frame23() {
 
       {/* section4 */}
       <section className="text-white">
-        <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
+        <div className="container mx-auto flex md:px-20 px-2 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
             <h3 className="text-[#FFFFFF] text-3xl mb-7">07 - BIG DATA</h3>
             <p className="mb-7">
