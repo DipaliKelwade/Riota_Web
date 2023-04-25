@@ -161,9 +161,9 @@ function product (){
                     </div>
                 </div>
                 </div>
-                <div className='ml-[41%] mt-[5%] relative max-[728px]:ml-[16%]'>
+                <div className='ml-[41%] mt-[5%] relative max-[728px]:ml-[25%]'>
                     <h3 className='text-white text-[30px] font-abc'>MOBILE TECHNOLOGIES</h3>
-                    <div className=' max-[728px]:w-[11%] flex flex-row space-x-10 ml-[-15%] mt-[3%]'>
+                    <div className=' max-[728px]:w-[8%] flex flex-row space-x-10 ml-[-15%] mt-[3%]'>
                         <Image
                         src="/images/technologies/icon13.png"
                         alt=''
