@@ -15,6 +15,7 @@ function product (){
                 <p className='font-extrabold relative text-[60px] font-abc text-white ml-[8%]'>BUILD YOUR IOT<br></br>SOLUTIONS WITH RIOTA</p>
                 <p className='relative text-[18px] font-abc text-white ml-[8%]'>We offer a wide range of IoT hardware and software development<br></br>services to build sleek web and mobile IoT applications for the<br></br>users of edge intelligence.</p>
                 <Image className='relative mt-[-27%] ml-[60%]'
+                alt=''
                 src="/images/Illustration.png"
                 height={500}
                 width={500}/>
@@ -26,6 +27,7 @@ function product (){
             <div>
             <a href='#'>
             <Image className='ml-[32%] mt-[2%]'
+            alt=''
             src="/images/smartvending.png"
             width={370}
             height={400}/>
@@ -35,6 +37,7 @@ function product (){
             <div>
             <a href='#'>
             <Image className='ml-[55%] mt-[2%]'
+            alt=''
             src="/images/vms.png"
             width={370}
             height={400}/>
@@ -44,6 +47,7 @@ function product (){
             <div>
             <a href='#'>
             <Image className='ml-[75%] mt-[2%]'
+            alt=''
             src="/images/webportal.png"
             width={370}
             height={400}/>
@@ -57,6 +61,7 @@ function product (){
             <div>
             <a href='#'>
             <Image className='ml-[95%] mt-[2%]'
+            alt=''
             src="/images/sowkea.png"
             width={370}
             height={400}/>
@@ -66,6 +71,7 @@ function product (){
             <div>
             <a href='#'>
             <Image className='ml-[110%] mt-[2%]'
+            alt=''
             src="/images/VAC.png"
             width={370}
             height={400}/>
@@ -88,26 +94,32 @@ function product (){
                     <div className='flex flex-row space-x-10 ml-[-22%] mt-[3%]'>
                         <Image
                         src="/images/technologies/icon1.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon2.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon3.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon4.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon5.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon6.png"
+                        alt=''
                         width={90}
                         height={60}/>
                     </div>
@@ -118,26 +130,32 @@ function product (){
                     <div className='flex flex-row space-x-10 ml-[-25%] mt-[3%]'>
                         <Image
                         src="/images/technologies/icon7.png"
+                        alt=''
                         width={40}
                         height={40}/>
                          <Image
                         src="/images/technologies/icon8.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon9.png"
+                        alt=''
                         width={40}
                         height={40}/>
                          <Image
                         src="/images/technologies/icon10.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon11.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon12.png"
+                        alt=''
                         width={60}
                         height={60}/>
                     </div>
@@ -148,26 +166,32 @@ function product (){
                     <div className='flex flex-row space-x-10 ml-[-15%] mt-[3%]'>
                         <Image
                         src="/images/technologies/icon13.png"
+                        alt=''
                         width={40}
                         height={10}/>
                          <Image
                         src="/images/technologies/icon14.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon15.png"
+                        alt=''
                         width={40}
                         height={10}/>
                          <Image
                         src="/images/technologies/icon16.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon17.png"
+                        alt=''
                         width={60}
                         height={60}/>
                          <Image
                         src="/images/technologies/icon12.png"
+                        alt=''
                         width={60}
                         height={60}/>
                     </div>
