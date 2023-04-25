@@ -118,7 +118,7 @@ function tc() {
           otherwise expressly authorised by these Terms of Use, You may not
           copy, reproduce, modify, amend, lease, loan, sell and/or create
           derivative works from, upload, transmit, and/or distribute the
-          Intellectual Property of the Web Site in any way without RIOTA's prior
+          Intellectual Property of the Web Site in any way without {"RIOTA's"} prior
           written permission or that of an appropriate third party. Except as
           expressly provided herein, RIOTA does not grant to You any express or
           implied rights to the Intellectual Property of RIOTA or that of any
