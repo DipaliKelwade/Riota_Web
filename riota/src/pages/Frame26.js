@@ -15,8 +15,8 @@ function Frame26() {
               <h3 className="text-[#FFEE40] text-3xl mb-5">
                 DIGITAL TRANSFORMATION
               </h3>
-              <h1 className="text-[#FFFFFF] text-6xl mb-5">
-                <b>CLOUD SOLUTIONS</b>
+              <h1 className="text-[#FFFFFF] text-6xl mb-5 font-bold">
+                CLOUD SOLUTIONS
               </h1>
               <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px] mb-5">
                 Cloud enables new and flexible operating models, as well as the

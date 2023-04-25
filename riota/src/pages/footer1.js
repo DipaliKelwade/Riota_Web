@@ -14,7 +14,7 @@ function Footer(){
                     meet-up their business and IT 
                     challenges.</p>
                     <div className="icon ">
-                        <ul className="flex flex-row gap-3 mt-20">
+                        <ul className="flex flex-row gap-3 mt-20 cursor-pointer">
                             <li>
                                 <Image src="/svg/FacebookBW.svg" width={42} height={42} alt=""/>
                             </li>
@@ -126,7 +126,7 @@ function Footer(){
                                 />
                                 <div className='number'>info@riota.in</div>
                             </li>
-                            <li  className='flex flex-row gap-3 items-center'>
+                            <li  className='flex flex-row gap-3 items-center '>
                                 <Image
                                     src="/svg/location.svg"
                                     width={40}

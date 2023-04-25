@@ -16,8 +16,8 @@ function Frame56() {
           <div className="container mx-auto flex md:px-5 px-1 md:py-24 py-10 md:flex-row flex-col-reverse items-center">
             <div className="lg:flex-grow md:w-1/2 lg:mr-24 md:mr-16 mr-0  flex flex-col md:items-start md:text-left items-center text-center">
               <h3 className="text-[#FFEE40] text-3xl mb-5">IT SERVICES</h3>
-              <h1 className="text-[#FFFFFF] text-6xl">
-                <b>EMBEDDED SERVICES & FIRMWARE</b>
+              <h1 className="text-[#FFFFFF] text-6xl font-bold">
+                EMBEDDED SERVICES & FIRMWARE
               </h1>
               <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px] mb-5">
                 Embedded product design is one of the specialized areas that

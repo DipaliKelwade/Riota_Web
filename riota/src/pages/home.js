@@ -20,7 +20,7 @@ function Home(){
                                     
                                 />
                             </li>
-                            <li className='py-2'>
+                            <li className='py-2 cursor-pointer'>
                                 <Image 
                                     src="/svg/FaceBook.svg"
                                     alt="fb"
@@ -28,7 +28,7 @@ function Home(){
                                     width="30" 
                                 />
                             </li>
-                            <li className='py-2'>
+                            <li className='py-2 cursor-pointer'>
                                 <Image 
                                     src="/svg/twitter.svg"
                                     alt="twitter"
@@ -36,7 +36,7 @@ function Home(){
                                     width="30" 
                                 />
                             </li>
-                            <li className='py-2'>
+                            <li className='py-2 cursor-pointer'>
                                 <Image 
                                     src="/svg/in.svg"
                                     alt="in"
@@ -44,7 +44,7 @@ function Home(){
                                     width="30" 
                                 />
                             </li>
-                            <li className='py-2'>
+                            <li className='py-2 cursor-pointer'>
                             <Image 
                                 src="/svg/insta.svg"
                                 alt="insta"
@@ -52,7 +52,7 @@ function Home(){
                                 width="30" 
                             />
                             </li>
-                            <li className='pt-2 ml-3'>
+                            <li className='pt-2 ml-3 cursor-pointer'>
                                 <Image 
                                     src="/svg/verticalbar.svg"
                                     alt="vertica;"
@@ -187,7 +187,7 @@ function Home(){
            </div>
 
            <div className='sevensec flex flex-col justify-center items-center my-32'>
-                <div className=' font-abc w-[800px] text-center gap-10'>
+                <div className=' font-abc w-[800px] text-center '>
                     <div className='font-bold font text-3xl text-yellow-300'>Why Choose Us</div>
                     <div className='font-bold text-white text-[60px]  '>Why RIOTA stands best</div>
                     <div className='text-white text-lg font-medium'>We have a small team & work exclusively with each client. 

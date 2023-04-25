@@ -26,7 +26,7 @@ const Navbar=()=>{
                  </li>
 
                  <li>
-                     <Link href={""}>
+                     
                         <div onClick={()=> setIsOpen((prev)=>!prev)} className="flex flex-row ">Digital Transformation
                             <Image className="-mt-2" src="/svg/arrowdown.png" width={30} height={30}  alt=""/>
                         </div>
@@ -71,11 +71,11 @@ const Navbar=()=>{
                                 </ul>
                             </div>}
                          
-                     </Link>
+                  
                  </li>
 
                  <li>
-                     <Link href={''}>
+                     
                      <div onClick={()=> setIsOpen1((prev)=>!prev)} className="flex flex-row ">IT Services
                         <Image className="-mt-2" src="/svg/arrowdown.png" width={30} height={30}  alt=""/>
                      </div>
@@ -98,7 +98,7 @@ const Navbar=()=>{
                                  </li>
                              </ul>
                          </div>}
-                     </Link>
+                    
                  </li>
                  <li>
 

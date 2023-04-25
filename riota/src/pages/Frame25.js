@@ -18,8 +18,8 @@ function Frame25() {
               <h3 className="text-[#FFEE40] text-3xl mb-5">
                 DIGITAL TRANSFORMATION
               </h3>
-              <h1 className="text-[#FFFFFF] text-6xl">
-                <b>MOBILITY SOLUTIONS</b>
+              <h1 className="text-[#FFFFFF] text-6xl font-bold">
+                MOBILITY SOLUTIONS
               </h1>
               <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px] mb-5">
                 Our mobile-first world gives rising importance to mobility

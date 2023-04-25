@@ -18,8 +18,8 @@ function Frame23() {
             <h3 className="text-[#FFEE40] text-3xl mb-5">
               DIGITAL TRANSFORMATION
             </h3>
-            <h1 className="text-[#FFFFFF] text-6xl mb-5">
-              <b>Advanced analytics</b>
+            <h1 className="text-[#FFFFFF] text-6xl mb-5 font-bold">
+              Advanced analytics
             </h1>
             <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px]">
               Advanced analytics is the foundation for cognitive computing,
@@ -44,12 +44,12 @@ function Frame23() {
         </div>
         <div className="container mx-auto px-1 py-4">
           <div className="mx-auto">
-            <h5 className="text-6xl">
-              <b>
+            <h5 className="text-6xl font-bold">
+              
                 {" "}
                 Our Analytics Platform Takes <br />
                 Away The Hard Process Of Data Processing{" "}
-              </b>
+              
             </h5>
           </div>
         </div>

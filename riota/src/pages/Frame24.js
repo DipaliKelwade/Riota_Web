@@ -17,8 +17,8 @@ const Frame24 = () => {
             <h3 className="text-[#FFEE40] text-3xl mb-5">
               DIGITAL TRANSFORMATION
             </h3>
-            <h1 className="text-[#FFFFFF] text-6xl mb-5">
-              <b>INTERNET OF THINGS</b>
+            <h1 className="text-[#FFFFFF] text-6xl mb-5 font-bold">
+              INTERNET OF THINGS
             </h1>
             <p className="text-[#FFFFFF] text-[18px] mt-[25px] max-w-[717px] mb-5">
               In our modern society, everything is connected, from computers to

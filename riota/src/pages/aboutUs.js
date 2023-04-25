@@ -224,7 +224,7 @@ function About(){
                                 src="/svg/quality.svg"
                                 width={80}
                                 height={80}
-                                alt=''
+                                alt='quality'
                             />
                             <div className='text-[30px] font-bold mt-5'>ISO 9001:2015</div>
                             <div className='text-lg font-bold '>Quality Management System</div>
@@ -234,7 +234,7 @@ function About(){
                                 src="/svg/membership.svg"
                                 width={45}
                                 height={45}
-                                alt=''
+                                alt='membership'
                             />
                             <div className='text-[30px] font-bold mt-5'>NASSCOM</div>
                             <div className='text-lg font-bold '>Certificate of Membership</div>
